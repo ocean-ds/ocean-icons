@@ -5,9 +5,9 @@ updates:
     schedule:
       interval: 'daily'
     reviewers:
-      - Pagnet/fronts
+      - 'Pagnet/fronts'
     assignees:
-      - SauloSilva
+      - 'SauloSilva'
     versioning-strategy: increase
     commit-message:
       prefix: 'chore'
