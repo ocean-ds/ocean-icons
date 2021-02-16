@@ -4,7 +4,6 @@
     "baseUrl": ".",
     "paths": {
       "@useblu/*": ["packages/*/src"]
-    },
-    "jsx": "react"
+    }
   }
 }
