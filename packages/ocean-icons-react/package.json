@@ -1,0 +1,19 @@
+{
+  "name": "@useblu/ocean-icons-react",
+  "version": "0.0.0",
+  "scripts": {
+    "gen": "ts-node -P scripts/tsconfig.build.json --files scripts/createIcons.ts"
+  },
+  "devDependencies": {
+    "@svgr/core": "^5.5.0",
+    "@svgr/plugin-prettier": "^5.5.0",
+    "@svgr/plugin-svgo": "^5.5.0",
+    "@types/node": "^14.14.27",
+    "@types/react": "^17.0.2",
+    "react": "^17.0.1",
+    "ts-node": "^9.1.1"
+  },
+  "peerDependencies": {
+    "react": ">=16.13.0"
+  }
+}
