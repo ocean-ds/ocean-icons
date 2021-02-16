@@ -13,7 +13,7 @@ const resetSrcDir = async () => {
 
 const getIconSuffixByType = (type: string) => {
   // Create a suffix for each other icon style that is not solid
-  let iconSuffix = type === 'solid' ? '' : `${type.split('-')[0]}`;
+  const iconSuffix = type === 'solid' ? '' : `${type.split('-')[0]}`;
   return iconSuffix.charAt(0).toUpperCase() + iconSuffix.substring(1);
 };
 
@@ -54,10 +54,10 @@ const genNamedComponentFromBuffer = async (
 
   const inputPath = '../ocean-icons/src';
 
-  for (let type of ['solid', 'outline']) {
+  for (const type of ['solid', 'outline']) {
     const fileList = await fs.readdir(`${inputPath}/${type}`);
 
-    for (let iconName of fileList) {
+    for (const iconName of fileList) {
       const exportName = getIconNameByType(iconName, getIconSuffixByType(type));
 
       const data = await fs.readFile(`${inputPath}/${type}/${iconName}`);
