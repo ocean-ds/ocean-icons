@@ -34,5 +34,8 @@
   },
   "peerDependencies": {
     "react": ">=16.13.0"
-  }
+  },
+  "repository": "git@github.com:Pagnet/ocean-icons.git",
+  "author": "Blu Pagamentos <devs@useblu.com.br>",
+  "license": "GPL-3.0"
 }
