@@ -47,5 +47,9 @@
       "pre-commit": "pretty-quick --staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "engines": {
+    "node": ">=12.8.0",
+    "yarn": ">=1.22.0"
   }
 }
