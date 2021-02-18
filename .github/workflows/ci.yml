@@ -8,11 +8,9 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [12.x, 14.x]
-
     steps:
       - uses: actions/checkout@v2
 
@@ -38,6 +36,7 @@ jobs:
 
   codestyle:
     needs: build
+    runs-on: ubuntu-latest
     steps:
       - name: Run linter
         run: yarn lint
