@@ -38,9 +38,9 @@ jobs:
 
   codestyle:
     needs: build
+    steps:
+      - name: Run linter
+        run: yarn lint
 
-  - name: Run linter
-    run: yarn lint
-
-  - name: Checks formatting
-    run: yarn format:check
+      - name: Checks formatting
+        run: yarn format:check
