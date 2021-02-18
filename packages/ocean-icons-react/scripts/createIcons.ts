@@ -52,7 +52,7 @@ const genNamedComponentFromBuffer = async (
 (async () => {
   await resetSrcDir();
 
-  const inputPath = '../ocean-icons/src';
+  const inputPath = './node_modules/@useblu/ocean-icons/dist';
 
   for (const type of ['solid', 'outline']) {
     const fileList = await fs.readdir(`${inputPath}/${type}`);

@@ -1531,6 +1531,11 @@
     "@typescript-eslint/types" "4.15.1"
     eslint-visitor-keys "^2.0.0"
 
+"@useblu/ocean-icons@^0.1.0-beta":
+  version "0.1.0-beta"
+  resolved "https://registry.yarnpkg.com/@useblu/ocean-icons/-/ocean-icons-0.1.0-beta.tgz#854771e17268830f6b9e98a80581f464ca395053"
+  integrity sha512-xMvXRZIkL7pM5lNvNCCbGp5AsDBar3lAEEwZdQjaE9+jpZugAcyZ7pofk6kjmO7Gzk25Ap3qmM/z3tCdXJTvlw==
+
 "@zkochan/cmd-shim@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@zkochan/cmd-shim/-/cmd-shim-3.1.0.tgz#2ab8ed81f5bb5452a85f25758eb9b8681982fd2e"

@@ -9,19 +9,20 @@ const HashtagOutline = (
   svgRef: React.Ref<SVGSVGElement>
 ) => (
   <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
     width={size}
     height={size}
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
     ref={svgRef}
     {...props}
   >
     <path
-      d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"
-      stroke="#4A5568"
-      strokeWidth={2}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={2}
+      d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"
     />
   </svg>
 );

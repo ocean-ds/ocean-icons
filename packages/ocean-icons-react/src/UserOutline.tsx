@@ -9,19 +9,20 @@ const UserOutline = (
   svgRef: React.Ref<SVGSVGElement>
 ) => (
   <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
     width={size}
     height={size}
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
     ref={svgRef}
     {...props}
   >
     <path
-      d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-      stroke="#4A5568"
-      strokeWidth={2}
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeWidth={2}
+      d="M16 7a4 4 0 11-8 0 4 4 0 018 0zm-4 7a7 7 0 00-7 7h14a7 7 0 00-7-7z"
     />
   </svg>
 );
