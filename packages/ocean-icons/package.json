@@ -1,7 +1,15 @@
 {
   "name": "@useblu/ocean-icons",
-  "version": "0.0.0",
-  "private": "true",
+  "version": "0.1.0-beta",
+  "description": "SVG icons for Ocean DS",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "svg",
+    "icons",
+    "ocean design"
+  ],
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "run-p build:*",
@@ -10,5 +18,8 @@
   },
   "devDependencies": {
     "svgo": "^1.3.2"
-  }
+  },
+  "repository": "git@github.com:Pagnet/ocean-icons.git",
+  "author": "Blu Pagamentos <devs@useblu.com.br>",
+  "license": "GPL-3.0"
 }
