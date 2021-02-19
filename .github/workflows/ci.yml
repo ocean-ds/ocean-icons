@@ -13,6 +13,9 @@ jobs:
         node-version: [12.x, 14.x]
     steps:
       - uses: actions/checkout@v2
+        with:
+          # we actually need "github.event.pull_request.commits + 1" commit
+          fetch-depth: 0
 
       - name: Use Node.js environment
         uses: actions/setup-node@v2
@@ -34,12 +37,14 @@ jobs:
       - name: Install dependencies
         run: yarn --frozen-lockfile
 
-  codestyle:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
+      - name: Build all
+        run: yarn build
+
       - name: Run linter
         run: yarn lint
 
       - name: Checks formatting
         run: yarn format:check
+
+      - name: Lint commit message
+        run: git log -1 --pretty=format:"%s" | npx commitlint
