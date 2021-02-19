@@ -4,6 +4,9 @@
   <a href="https://github.com/Pagnet/ocean-icons/actions">
     <img alt="Actions Status" src="https://github.com/Pagnet/ocean-icons/workflows/CI/badge.svg">
   </a>
+  <a href="https://sonarcloud.io/dashboard?id=Pagnet_ocean-icons">
+    <img alt="Sonarcloud Status" src="https://sonarcloud.io/api/project_badges/measure?project=Pagnet_ocean-icons&metric=alert_status">
+  </a>
   <a href="https://github.com/Pagnet/ocean-icons/blob/master/LICENSE">
     <img alt="GitHub License" src="https://img.shields.io/github/license/Pagnet/ocean-icons">
   </a>
