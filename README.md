@@ -1,6 +1,9 @@
 <h1 align="center">Ocean Icons</h1>
 
 <p align="center">
+  <a href="https://github.com/Pagnet/ocean-icons/actions">
+    <img alt="Actions Status" src="https://github.com/Pagnet/ocean-icons/workflows/CI/badge.svg">
+  </a>
   <a href="https://github.com/Pagnet/ocean-icons/blob/master/LICENSE">
     <img alt="GitHub License" src="https://img.shields.io/github/license/Pagnet/ocean-icons">
   </a>
