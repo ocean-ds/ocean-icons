@@ -1,6 +1,6 @@
 import svgr from '@svgr/core';
 import { promises as fs } from 'fs';
-import template from './template';
+import IconTemplate from './IconTemplate';
 
 const resetSrcDir = async () => {
   try {
@@ -32,7 +32,7 @@ const genNamedComponentFromBuffer = async (
     return await svgr(
       svgCode,
       {
-        template,
+        template: IconTemplate,
         svgo: true,
         ref: true,
         svgProps: { width: '{size}', height: '{size}' },

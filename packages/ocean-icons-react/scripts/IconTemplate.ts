@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any, @typescript-eslint/explicit-module-boundary-types */
-const template = (
+const IconTemplate = (
   { template }: any,
   _opts: any,
   { componentName, jsx, exports }: any
@@ -20,4 +20,4 @@ const template = (
     `;
 };
 
-export default template;
+export default IconTemplate;
