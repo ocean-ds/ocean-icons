@@ -10,12 +10,7 @@ module.exports = {
     },
   },
   plugins: ['react'],
-  extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint',
-    'plugin:react/recommended',
-  ],
+  extends: ['plugin:react/recommended'],
   rules: {
     'react/prop-types': 'off',
   },
