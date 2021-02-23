@@ -1,18 +1,13 @@
 {
   "name": "@useblu/ocean-icons-react",
   "version": "0.1.0-beta",
+  "private": "false",
   "description": "React component for Ocean icons",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
-  ],
-  "keywords": [
-    "react",
-    "icons",
-    "svg",
-    "ocean design"
   ],
   "scripts": {
     "gen": "ts-node -P scripts/tsconfig.build.json --files scripts/createIcons.ts",
@@ -21,6 +16,21 @@
     "format": "prettier --write . --ignore-path ../../.prettierignore",
     "lint": "eslint '**/*.{ts,tsx}'",
     "lint:fix": "eslint '**/*.{ts,tsx}' --fix"
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "svg",
+    "ocean design"
+  ],
+  "homepage": "https://github.com/Pagnet/ocean-icons#readme",
+  "bugs": "https://github.com/Pagnet/ocean-icons/issues",
+  "license": "GPL-3.0",
+  "author": "Blu Pagamentos <devs@useblu.com.br>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pagnet/ocean-icons.git",
+    "directory": "packages/ocean-icons-react"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.1.0",
@@ -43,7 +53,8 @@
   "peerDependencies": {
     "react": ">=16.13.0"
   },
-  "repository": "git@github.com:Pagnet/ocean-icons.git",
-  "author": "Blu Pagamentos <devs@useblu.com.br>",
-  "license": "GPL-3.0"
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false
 }

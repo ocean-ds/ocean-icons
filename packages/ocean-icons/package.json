@@ -1,14 +1,10 @@
 {
   "name": "@useblu/ocean-icons",
   "version": "0.1.0-beta",
+  "private": "false",
   "description": "SVG icons for Ocean DS",
   "files": [
     "dist"
-  ],
-  "keywords": [
-    "svg",
-    "icons",
-    "ocean design"
   ],
   "scripts": {
     "prebuild": "rimraf dist",
@@ -16,10 +12,25 @@
     "build:outline": "svgo --config=svgo.outline.yaml -f ./src/outline -o ./dist/outline -q",
     "build:solid": "svgo --config=svgo.solid.yaml -f ./src/solid -o ./dist/solid -q"
   },
+  "keywords": [
+    "svg",
+    "icons",
+    "ocean design"
+  ],
+  "homepage": "https://github.com/Pagnet/ocean-icons#readme",
+  "bugs": "https://github.com/Pagnet/ocean-icons/issues",
+  "license": "GPL-3.0",
+  "author": "Blu Pagamentos <devs@useblu.com.br>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pagnet/ocean-icons.git",
+    "directory": "packages/ocean-icons"
+  },
   "devDependencies": {
     "svgo": "^1.3.2"
   },
-  "repository": "git@github.com:Pagnet/ocean-icons.git",
-  "author": "Blu Pagamentos <devs@useblu.com.br>",
-  "license": "GPL-3.0"
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false
 }
