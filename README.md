@@ -49,7 +49,6 @@ npm i @useblu/ocean-icons-react
 ```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
-
 import { Sparkles } from '@useblu/ocean-icons-react';
 
 function App() {

@@ -2,7 +2,7 @@
   "name": "@useblu/ocean-icons-react",
   "version": "0.1.0-beta",
   "private": "false",
-  "description": "React component for Ocean icons",
+  "description": "React components for Ocean icons",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
