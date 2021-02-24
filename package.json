@@ -9,9 +9,7 @@
     "cm": "cz",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "lint": "lerna run lint --parallel --stream",
-    "release:canary": "lerna publish --canary --no-git-tag-version --no-changelog",
-    "release:stable": "lerna publish --conventional-graduate"
+    "lint": "lerna run lint --parallel --stream"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.0.0",

@@ -50,12 +50,12 @@ jobs:
 
       - name: Creates a CANARY release and publishes if necessary
         if: github.ref == 'refs/heads/create-release-process'
-        run: yarn release:canary --preid beta --dist-tag beta --pre-dist-tag beta
+        run: npx lerna publish --canary --no-git-tag-version --no-changelog --preid beta --dist-tag beta --pre-dist-tag beta
 
       - name: Creates a CANARY release and publishes if necessary
         if: github.ref == 'refs/heads/next'
-        run: yarn release:canary
+        run: npx lerna publish --canary --no-git-tag-version --no-changelog
 
       - name: Creates a STABLE release and publishes if necessary
         if: github.ref == 'refs/heads/master'
-        run: yarn release:stable
+        run: npx lerna publish --conventional-graduate
