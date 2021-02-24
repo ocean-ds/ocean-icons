@@ -5,13 +5,17 @@
   "packages": ["packages/*"],
   "ignoreChanges": ["ignored-file", "**/*.md"],
   "command": {
-    "publish": {
+    "version": {
       "allowBranch": ["master", "next", "create-release-process"],
       "conventionalCommits": true,
       "noPrivate": true,
-      "verifyAccess": false,
       "createRelease": "github",
       "message": "chore(release): publish %s [skip ci]",
+      "loglevel": "verbose",
+      "yes": true
+    },
+    "publish": {
+      "verifyAccess": false,
       "preDistTag": "next",
       "loglevel": "verbose",
       "yes": true
