@@ -22,6 +22,11 @@ jobs:
           # We need to fetch all tags and branches
           fetch-depth: 0
 
+      - name: Set git identity
+        run: |
+          git config --global user.email "devs@useblu.com.br"
+          git config --global user.name "Blu Release Bot"
+
       - name: Use Node.js environment
         uses: actions/setup-node@v2
         with:
