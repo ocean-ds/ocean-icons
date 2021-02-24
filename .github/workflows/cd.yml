@@ -8,9 +8,8 @@ on:
       - create-release-process # TODO: remove before merge
 
 env:
-  NPM_TOKEN: ${{secrets.NPM_TOKEN}}
   NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GH_TOKEN: ${{ secrets.GH_PAT }}
   CI: true
 
 jobs:
@@ -19,14 +18,15 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
+          # Check out as an admin to allow for pushing back to master
+          token: ${{ secrets.GH_PAT }}
           # We need to fetch all tags and branches
           fetch-depth: 0
-          persist-credentials: false
 
       - name: Set git identity
         run: |
-          git config --global user.email "devs@useblu.com.br"
           git config --global user.name "Blu Release Bot"
+          git config --global user.email "devs@useblu.com.br"
 
       - name: Use Node.js environment
         uses: actions/setup-node@v2
