@@ -17,10 +17,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          # pulls all commits (needed for lerna to correctly version)
+          # We need to fetch all tags and branches
           fetch-depth: 0
-      # pulls all tags (needed for lerna to correctly version)
-      - run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
 
       - name: Set current branch name
         id: vars
