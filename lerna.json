@@ -11,6 +11,7 @@
       "noPrivate": true,
       "createRelease": "github",
       "message": "chore(release): publish %s [skip ci]",
+      "preDistTag": "next",
       "loglevel": "verbose",
       "yes": true
     }
