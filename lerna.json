@@ -4,7 +4,6 @@
   "useWorkspaces": true,
   "packages": ["packages/*"],
   "ignoreChanges": ["ignored-file", "**/*.md"],
-  "registry": "https://registry.npmjs.org/",
   "command": {
     "publish": {
       "allowBranch": ["master", "next", "create-release-process"],

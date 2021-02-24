@@ -28,6 +28,9 @@ jobs:
           node-version: '14.x'
           registry-url: https://registry.npmjs.org/
 
+      - name: Authenticate with Registry
+        run: npm whoami
+
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
@@ -45,12 +48,6 @@ jobs:
 
       - name: Build all
         run: yarn build
-
-      - name: NPM Setup
-        run: |
-          npm set registry "https://registry.npmjs.org/"
-          npm set //registry.npmjs.org/:_authToken $NPM_TOKEN
-          npm whoami
 
       - name: Creates a CANARY release and publishes if necessary
         if: github.ref == 'refs/heads/create-release-process'
