@@ -9,7 +9,7 @@
       "allowBranch": ["master", "next", "create-release-process"],
       "conventionalCommits": true,
       "noPrivate": true,
-      "noVerifyAccess": true,
+      "verifyAccess": false,
       "createRelease": "github",
       "message": "chore(release): publish %s [skip ci]",
       "preDistTag": "next",
