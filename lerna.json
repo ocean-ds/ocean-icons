@@ -2,5 +2,17 @@
   "version": "0.1.0-beta",
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "packages": ["packages/*"]
+  "packages": ["packages/*"],
+  "ignoreChanges": ["ignored-file", "**/*.md"],
+  "command": {
+    "publish": {
+      "allowBranch": ["master", "next"],
+      "conventionalCommits": true,
+      "noPrivate": true,
+      "createRelease": "github",
+      "message": "chore(release): publish %s [skip ci]",
+      "logLevel": "verbose",
+      "yes": true
+    }
+  }
 }
