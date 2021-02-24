@@ -11,7 +11,7 @@
       "noPrivate": true,
       "createRelease": "github",
       "message": "chore(release): publish %s [skip ci]",
-      "logLevel": "verbose",
+      "loglevel": "verbose",
       "yes": true
     }
   }
