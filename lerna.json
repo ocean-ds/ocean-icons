@@ -1,21 +1,12 @@
 {
-  "version": "0.1.0-rc.1",
+  "version": "0.1.0-rc.2",
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "packages": [
-    "packages/*"
-  ],
-  "ignoreChanges": [
-    "ignored-file",
-    "**/*.md"
-  ],
+  "packages": ["packages/*"],
+  "ignoreChanges": ["ignored-file", "**/*.md"],
   "command": {
     "version": {
-      "allowBranch": [
-        "master",
-        "next",
-        "create-release-process"
-      ],
+      "allowBranch": ["master", "next", "create-release-process"],
       "conventionalCommits": true,
       "noPrivate": true,
       "createRelease": "github",
