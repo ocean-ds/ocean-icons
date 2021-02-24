@@ -26,7 +26,6 @@ jobs:
         with:
           node-version: '14.x'
           registry-url: https://registry.npmjs.org/
-          scope: '@useblu'
 
       - name: Authenticate with Registry
         run: npm whoami
