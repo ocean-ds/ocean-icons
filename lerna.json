@@ -6,7 +6,7 @@
   "ignoreChanges": ["ignored-file", "**/*.md"],
   "command": {
     "publish": {
-      "allowBranch": ["master", "next"],
+      "allowBranch": ["master", "next", "create-release-process"],
       "conventionalCommits": true,
       "noPrivate": true,
       "createRelease": "github",
