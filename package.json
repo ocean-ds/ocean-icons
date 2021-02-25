@@ -10,7 +10,7 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "lerna run lint --parallel --stream",
-    "version": "prettier --write '**/CHANGELOG.md'"
+    "version": "prettier --write '**/{CHANGELOG.md,lerna.json}'"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.0.0",
