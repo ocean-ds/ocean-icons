@@ -55,8 +55,12 @@ function App() {
   return <Sparkles size={42} />;
 }
 
-ReactDOM.render(<App />, document.querySelector('#app'));
+ReactDOM.render(<App />, document.querySelector('#root'));
 ```
+
+Yes, it's really all you need to get started as you can see in this live and interactive demo:
+
+[![Edit Button](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/ocean-icons-ilimo)
 
 ## Contributing
 
