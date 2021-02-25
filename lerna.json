@@ -4,6 +4,7 @@
   "useWorkspaces": true,
   "packages": ["packages/*"],
   "ignoreChanges": ["ignored-file", "**/*.md"],
+  "yes": true,
   "command": {
     "version": {
       "allowBranch": ["master", "next", "create-release-process"],
@@ -11,14 +12,12 @@
       "noPrivate": true,
       "createRelease": "github",
       "message": "chore(release): publish %s [skip ci]",
-      "loglevel": "verbose",
-      "yes": true
+      "loglevel": "verbose"
     },
     "publish": {
       "verifyAccess": false,
       "preDistTag": "next",
-      "loglevel": "verbose",
-      "yes": true
+      "loglevel": "verbose"
     }
   }
 }

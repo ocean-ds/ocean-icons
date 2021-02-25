@@ -57,7 +57,7 @@ jobs:
 
       - name: Creates a CANARY release and publishes if necessary
         if: github.ref == 'refs/heads/create-release-process'
-        run: npx lerna version 0.1.0-rc.2
+        run: npx lerna publish 0.1.0-rc.3 --dist-tag next
 
       - name: Creates a CANARY release and publishes if necessary
         if: github.ref == 'refs/heads/next'

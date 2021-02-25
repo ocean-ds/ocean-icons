@@ -142,7 +142,3 @@ We use typescript for package development. Make sure the typings are specific an
 ### Documentation
 
 - Use [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to create project documentation.
-
-## Releasing
-
-You can find docs about our release process in [RELEASING.md](RELEASING.md).
