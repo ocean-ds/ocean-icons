@@ -7,7 +7,7 @@
   "yes": true,
   "command": {
     "version": {
-      "allowBranch": ["master", "next", "create-release-process"],
+      "allowBranch": ["master", "next"],
       "conventionalCommits": true,
       "noPrivate": true,
       "createRelease": "github",
