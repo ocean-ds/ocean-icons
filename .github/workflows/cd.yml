@@ -55,14 +55,14 @@ jobs:
       - name: Build all
         run: yarn build
 
-      - name: Creates a CANARY release and publishes if necessary
+      - name: Creates a CANARY release if necessary
         if: github.ref == 'refs/heads/create-release-process'
-        run: npx lerna publish 0.1.0-rc.3 --dist-tag next
+        run: npx lerna publish --canary --no-git-tag-version --no-changelog
 
-      - name: Creates a CANARY release and publishes if necessary
+      - name: Creates a CANARY release if necessary
         if: github.ref == 'refs/heads/next'
         run: npx lerna publish --canary --no-git-tag-version --no-changelog
 
-      - name: Creates a STABLE release and publishes if necessary
+      - name: Creates a STABLE release if necessary
         if: github.ref == 'refs/heads/master'
         run: npx lerna publish --conventional-graduate
