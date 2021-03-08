@@ -13,7 +13,6 @@ The following is a set of guidelines for contributing to Ocean Icons packages. P
 - [Setup](#setup)
 - [Project Structure](#project-structure)
 - [Styleguides](#styleguides)
-- [Releasing](#releasing)
 
 ## Code of Conduct
 
