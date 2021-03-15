@@ -38,7 +38,7 @@
     "@svgr/core": "^5.5.0",
     "@svgr/plugin-prettier": "^5.5.0",
     "@svgr/plugin-svgo": "^5.5.0",
-    "@types/node": "^14.14.32",
+    "@types/node": "^14.14.34",
     "@types/react": "^17.0.3",
     "@types/rollup-plugin-peer-deps-external": "^2.2.0",
     "@useblu/ocean-icons": "^0.1.0",
