@@ -17,13 +17,13 @@
     "icons",
     "ocean design"
   ],
-  "homepage": "https://github.com/Pagnet/ocean-icons#readme",
-  "bugs": "https://github.com/Pagnet/ocean-icons/issues",
+  "homepage": "https://github.com/ocean-ds/ocean-icons#readme",
+  "bugs": "https://github.com/ocean-ds/ocean-icons/issues",
   "license": "GPL-3.0",
   "author": "Blu Pagamentos <devs@useblu.com.br>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Pagnet/ocean-icons.git",
+    "url": "https://github.com/ocean-ds/ocean-icons.git",
     "directory": "packages/ocean-icons"
   },
   "devDependencies": {

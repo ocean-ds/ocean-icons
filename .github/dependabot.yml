@@ -4,11 +4,9 @@ updates:
     directory: '/'
     schedule:
       interval: 'weekly'
-    open-pull-requests-limit: 0
     reviewers:
-      - 'Pagnet/fronts'
+      - 'ocean-ds/core-web'
     assignees:
-      - 'SauloSilva'
-    versioning-strategy: increase
+      - 'leonardoalemax'
     commit-message:
       prefix: 'chore'

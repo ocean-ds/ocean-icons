@@ -1,19 +1,19 @@
 <h1 align="center">Ocean Icons</h1>
 
 <p align="center">
-  <a href="https://github.com/Pagnet/ocean-icons/actions">
-    <img alt="Actions Status" src="https://github.com/Pagnet/ocean-icons/workflows/CI/badge.svg">
+  <a href="https://github.com/ocean-ds/ocean-icons/actions">
+    <img alt="Actions Status" src="https://github.com/ocean-ds/ocean-icons/workflows/CI/badge.svg">
   </a>
-  <a href="https://sonarcloud.io/dashboard?id=Pagnet_ocean-icons">
-    <img alt="Sonarcloud Status" src="https://sonarcloud.io/api/project_badges/measure?project=Pagnet_ocean-icons&metric=alert_status">
+  <a href="https://sonarcloud.io/dashboard?id=ocean-ds_ocean-icons">
+    <img alt="Sonarcloud Status" src="https://sonarcloud.io/api/project_badges/measure?project=ocean-ds_ocean-icons&metric=alert_status">
   </a>
-  <a href="https://github.com/Pagnet/ocean-icons/blob/master/LICENSE">
-    <img alt="GitHub License" src="https://img.shields.io/github/license/Pagnet/ocean-icons">
+  <a href="https://github.com/ocean-ds/ocean-icons/blob/master/LICENSE">
+    <img alt="GitHub License" src="https://img.shields.io/github/license/ocean-ds/ocean-icons">
   </a>
-  <a href="https://github.com/Pagnet/ocean-icons/graphs/commit-activity">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Pagnet/ocean-icons">
+  <a href="https://github.com/ocean-ds/ocean-icons/graphs/commit-activity">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ocean-ds/ocean-icons">
   </a>
-  <a href="https://github.com/Pagnet/ocean-icons/network/updates">
+  <a href="https://github.com/ocean-ds/ocean-icons/network/updates">
     <img alt="Dependabot" src="https://img.shields.io/badge/Dependabot-enabled-brightgreen">
   </a>
   <a href="https://github.com/prettier/prettier">
@@ -76,7 +76,7 @@ Read our [contributing guide](.github/CONTRIBUTING.md) to learn about our develo
 
 ### Good First Issues
 
-To help you get your feet wet and get you familiar with our contribution process, we have a list of [good first issues](https://github.com/Pagnet/ocean-icons/labels/good%20first%20issue) that contain bugs which have a relatively limited scope. This is a great place to get started.
+To help you get your feet wet and get you familiar with our contribution process, we have a list of [good first issues](https://github.com/ocean-ds/ocean-icons/labels/good%20first%20issue) that contain bugs which have a relatively limited scope. This is a great place to get started.
 
 ## License
 

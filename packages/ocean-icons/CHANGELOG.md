@@ -7,4 +7,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-- add initial icons ([49c18e7](https://github.com/Pagnet/ocean-icons/commit/49c18e7f699c71ef16aebacf8aeca38e174d1839))
+- add initial icons ([49c18e7](https://github.com/ocean-ds/ocean-icons/commit/49c18e7f699c71ef16aebacf8aeca38e174d1839))
