@@ -6,6 +6,8 @@
   ],
   "scripts": {
     "prepare": "husky install",
+    "prerefresh": "lerna run copy:heroicons --scope @useblu/ocean-icons",
+    "refresh": "lerna run generate --stream",
     "build": "lerna run build --stream",
     "cm": "cz",
     "format": "prettier --write .",
