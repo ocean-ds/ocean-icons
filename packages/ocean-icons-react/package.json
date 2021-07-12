@@ -10,7 +10,9 @@
     "dist"
   ],
   "scripts": {
-    "gen": "ts-node -P scripts/tsconfig.build.json --files scripts/createIcons.ts",
+    "pregenerate": "lerna run build --scope @useblu/ocean-icons",
+    "generate": "ts-node -P scripts/tsconfig.build.json --files scripts/createIcons.ts",
+    "postgenerate": "prettier --write 'src/**'",
     "prebuild": "rimraf dist",
     "build": "rollup -c rollup.config.ts",
     "format": "prettier --write . --ignore-path ../../.prettierignore",
