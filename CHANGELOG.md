@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/ocean-ds/ocean-icons/compare/v0.1.9...v1.0.0) (2021-07-13)
+
+### Features
+
+- add heroicons v1 ([#56](https://github.com/ocean-ds/ocean-icons/issues/56)) ([949abc0](https://github.com/ocean-ds/ocean-icons/commit/949abc03323e54a9ed7898c88f05749039f9497f))
+
+### BREAKING CHANGES
+
+- include arrow-sm variations and update icons from heroicons v1.0.0
+
 ## [0.1.9](https://github.com/ocean-ds/ocean-icons/compare/v0.1.8...v0.1.9) (2021-07-12)
 
 **Note:** Version bump only for package root
