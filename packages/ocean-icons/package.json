@@ -12,8 +12,8 @@
     "postcopy:heroicons": "rimraf heroicons",
     "prebuild": "rimraf dist",
     "build": "run-p build:*",
-    "build:outline": "svgo --config=svgo.outline.yaml -f ./src/outline -o ./dist/outline -q",
-    "build:solid": "svgo --config=svgo.solid.yaml -f ./src/solid -o ./dist/solid -q"
+    "build:outline": "svgo --config svgo.outline.js -f ./src/outline -o ./dist/outline -q",
+    "build:solid": "svgo --config svgo.solid.js -f ./src/solid -o ./dist/solid -q"
   },
   "keywords": [
     "svg",
@@ -30,8 +30,9 @@
     "directory": "packages/ocean-icons"
   },
   "devDependencies": {
+    "@types/svgo": "^2.3.1",
     "copyfiles": "^2.4.1",
-    "svgo": "^1.3.2"
+    "svgo": "^2.3.1"
   },
   "publishConfig": {
     "access": "public"
