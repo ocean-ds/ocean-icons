@@ -5,8 +5,8 @@ updates:
     schedule:
       interval: 'weekly'
     reviewers:
-      - 'ocean-ds/core-web'
+      - 'ocean-ds/developers'
     assignees:
-      - 'leonardoalemax'
+      - 'andrevvalle'
     commit-message:
       prefix: 'chore'
