@@ -8,12 +8,18 @@
   ],
   "scripts": {
     "precopy:heroicons": "git clone https://github.com/tailwindlabs/heroicons",
-    "copy:heroicons": "copyfiles -u 2 ./heroicons/src/**/* src",
+    "copy:heroicons": "copyfiles -u 2 ./heroicons/src/**/* src/base",
     "postcopy:heroicons": "rimraf heroicons",
     "prebuild": "rimraf dist",
-    "build": "run-p build:*",
-    "build:outline": "svgo --config svgo.outline.js -f ./src/outline -o ./dist/outline -q",
-    "build:solid": "svgo --config svgo.solid.js -f ./src/solid -o ./dist/solid -q"
+    "build": "run-s build:base build:custom",
+    "build:base": "run-p build:base:*",
+    "build:custom": "run-p build:custom:*",
+    "build:base:outline": "cross-env FOLDER=./src/base/outline yarn build:outline",
+    "build:base:solid": "cross-env FOLDER=./src/base/solid yarn build:solid",
+    "build:custom:outline": "cross-env FOLDER=./src/custom/outline yarn build:outline",
+    "build:custom:solid": "cross-env FOLDER=./src/custom/solid yarn build:solid",
+    "build:outline": "cross-env-shell svgo --config svgo.outline.js -f $FOLDER -o ./dist/outline -q",
+    "build:solid": "cross-env-shell svgo --config svgo.solid.js -f $FOLDER -o ./dist/solid -q"
   },
   "keywords": [
     "svg",
