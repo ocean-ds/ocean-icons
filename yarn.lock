@@ -1492,9 +1492,9 @@
   integrity sha512-EaCxbanVeyxDRTQBkdLb3Bvl/HK7PBK6UJjsSixB0iHKoWxE5uu2Q/DgtpOhPIojN0Zl1whvOd7PoHs2P0s5eA==
 
 "@types/svgo@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@types/svgo/-/svgo-2.3.1.tgz#85442587bc72bbfb92f3721020e28d678b8744ec"
-  integrity sha512-L7gdQLO8cfGKksOVtlpS0jwh04SL3W7xe+efuWbNnfSwl3cKSdgX0gLl5VnHDtSAX//xfCbEgB+RSN64tfShqQ==
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@types/svgo/-/svgo-2.4.0.tgz#d0421e0f563cd4726fa8261066f16d399e665b2e"
+  integrity sha512-tkdgLUK9/7MYXOCjjDjhD09zRYpplCe0M1hhmYubBRrsD0EUdhOPtjzr/ObvNfXpd6vLqsrqzdODoI2v5RB2yA==
 
 "@typescript-eslint/eslint-plugin@^4.28.3":
   version "4.31.0"
@@ -2847,10 +2847,10 @@ eslint-config-prettier@^8.3.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
   integrity sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==
 
-eslint-plugin-prettier@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.4.0.tgz#cdbad3bf1dbd2b177e9825737fe63b476a08f0c7"
-  integrity sha512-UDK6rJT6INSfcOo545jiaOwB701uAIt2/dR7WnFQoGCVl1/EMqdANBmwUaqqQ45aXprsTGzSa39LI1PyuRBxxw==
+eslint-plugin-prettier@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-4.0.0.tgz#8b99d1e4b8b24a762472b4567992023619cb98e0"
+  integrity sha512-98MqmCJ7vJodoQK359bqQWaxOE0CS8paAz/GgjaZLyex4TTk3g9HugoO89EqWCrFiOqn9EVvcoo7gZzONCWVwQ==
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
