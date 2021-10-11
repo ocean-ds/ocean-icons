@@ -1492,9 +1492,11 @@
   integrity sha512-EaCxbanVeyxDRTQBkdLb3Bvl/HK7PBK6UJjsSixB0iHKoWxE5uu2Q/DgtpOhPIojN0Zl1whvOd7PoHs2P0s5eA==
 
 "@types/svgo@^2.3.1":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@types/svgo/-/svgo-2.4.0.tgz#d0421e0f563cd4726fa8261066f16d399e665b2e"
-  integrity sha512-tkdgLUK9/7MYXOCjjDjhD09zRYpplCe0M1hhmYubBRrsD0EUdhOPtjzr/ObvNfXpd6vLqsrqzdODoI2v5RB2yA==
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@types/svgo/-/svgo-2.6.0.tgz#f0c50eed286422f63b4e3346d8a309b0ea67d58a"
+  integrity sha512-VSdhb3KTOglle1SLQD4+TB6ezj/MS3rN98gOUkXzbTUhG8VjFKHXN3OVgEFlTnW5fYBxt+lzZlD3PFqkwMj36Q==
+  dependencies:
+    "@types/node" "*"
 
 "@typescript-eslint/eslint-plugin@^4.28.3":
   version "4.31.0"
