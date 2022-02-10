@@ -486,4 +486,4 @@ export { default as ZeroOutline } from './ZeroOutline';
 export { default as ZoomInOutline } from './ZoomInOutline';
 export { default as ZoomOutOutline } from './ZoomOutOutline';
 export { default as Pix } from './Pix';
-export { default as PixOutline } from './Pix';
+export { default as PixOutline } from './PixOutline';
