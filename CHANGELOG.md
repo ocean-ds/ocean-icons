@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/ocean-ds/ocean-icons/compare/v1.1.1...v1.2.0) (2022-02-10)
+
+### Features
+
+- add pix icon ([#147](https://github.com/ocean-ds/ocean-icons/issues/147)) ([aaaa5c0](https://github.com/ocean-ds/ocean-icons/commit/aaaa5c08273e0df45de3948330a6cc0f8e37f055))
+
 ## [1.1.1](https://github.com/ocean-ds/ocean-icons/compare/v1.1.0...v1.1.1) (2021-08-20)
 
 **Note:** Version bump only for package root
