@@ -342,7 +342,7 @@ export { default as ExclamationOutline } from './ExclamationOutline';
 export { default as ExternalLinkOutline } from './ExternalLinkOutline';
 export { default as EyeOffOutline } from './EyeOffOutline';
 export { default as EyeOutline } from './EyeOutline';
-export { default as FactoryOutline } from './FactoryOutline';
+export { default as SupplierOutline } from './SupplierOutline';
 export { default as FastForwardOutline } from './FastForwardOutline';
 export { default as FilmOutline } from './FilmOutline';
 export { default as FilterOutline } from './FilterOutline';
