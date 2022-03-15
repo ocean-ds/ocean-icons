@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.1](https://github.com/ocean-ds/ocean-icons/compare/v1.3.0...v1.3.1) (2022-03-15)
+
+### Bug Fixes
+
+- **supplier:** change stroke to fill ([#161](https://github.com/ocean-ds/ocean-icons/issues/161)) ([9b5c649](https://github.com/ocean-ds/ocean-icons/commit/9b5c6496b9cf500bff5127ab560156ef23c3336b))
+
 # [1.3.0](https://github.com/ocean-ds/ocean-icons/compare/v1.2.0...v1.3.0) (2022-03-14)
 
 ### Features
