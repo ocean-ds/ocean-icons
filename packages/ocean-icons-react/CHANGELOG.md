@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/ocean-ds/ocean-icons/compare/v1.2.0...v1.3.0) (2022-03-14)
+
+### Features
+
+- **supplier:** add supplier icon ([#159](https://github.com/ocean-ds/ocean-icons/issues/159)) ([b5d034b](https://github.com/ocean-ds/ocean-icons/commit/b5d034bae58e160ba0e4241b1dcf3274656ad79c))
+
 # [1.2.0](https://github.com/ocean-ds/ocean-icons/compare/v1.1.1...v1.2.0) (2022-02-10)
 
 ### Features
