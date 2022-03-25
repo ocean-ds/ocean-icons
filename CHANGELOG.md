@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.1](https://github.com/ocean-ds/ocean-icons/compare/v1.5.0...v1.5.1) (2022-03-25)
+
+### Bug Fixes
+
+- adjust presentation qrcode outline svg ([#167](https://github.com/ocean-ds/ocean-icons/issues/167)) ([b98bee0](https://github.com/ocean-ds/ocean-icons/commit/b98bee09145ab6ed325d13d85c0d63bf19f331f9))
+
 # [1.5.0](https://github.com/ocean-ds/ocean-icons/compare/v1.4.1...v1.5.0) (2022-03-25)
 
 ### Features
