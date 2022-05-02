@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.1](https://github.com/ocean-ds/ocean-icons/compare/v1.6.0...v1.6.1) (2022-05-02)
+
+### Bug Fixes
+
+- export icons ([#171](https://github.com/ocean-ds/ocean-icons/issues/171)) ([9295289](https://github.com/ocean-ds/ocean-icons/commit/92952898073fe0095cc2cac5a23d027fe9b4e878))
+
 # [1.6.0](https://github.com/ocean-ds/ocean-icons/compare/v1.5.1...v1.6.0) (2022-05-02)
 
 ### Features
