@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/ocean-ds/ocean-icons/compare/v1.5.1...v1.6.0) (2022-05-02)
+
+### Features
+
+- add tax icons ([#169](https://github.com/ocean-ds/ocean-icons/issues/169)) ([0f6ca5c](https://github.com/ocean-ds/ocean-icons/commit/0f6ca5c26b51cd53894c19e134db671a891a336f))
+
 ## [1.5.1](https://github.com/ocean-ds/ocean-icons/compare/v1.5.0...v1.5.1) (2022-03-25)
 
 ### Bug Fixes
