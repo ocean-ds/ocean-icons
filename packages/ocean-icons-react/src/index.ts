@@ -489,3 +489,5 @@ export { default as ZoomOutOutline } from './ZoomOutOutline';
 export { default as Pix } from './Pix';
 export { default as PixOutline } from './PixOutline';
 export { default as PresentationQrcodeOutline } from './PresentationQrcodeOutline';
+export { default as VariableTaxOutline } from './VariableTaxOutline';
+export { default as LockTaxOutline } from './LockTaxOutline';
