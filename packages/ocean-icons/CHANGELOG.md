@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.7.0](https://github.com/ocean-ds/ocean-icons/compare/v1.6.1...v1.7.0) (2022-06-23)
+
+### Features
+
+- include blu-logo ([#182](https://github.com/ocean-ds/ocean-icons/issues/182)) ([00f955b](https://github.com/ocean-ds/ocean-icons/commit/00f955b8af563531f8d024f20a7e23fe6e9664df))
+
 # [1.6.0](https://github.com/ocean-ds/ocean-icons/compare/v1.5.1...v1.6.0) (2022-05-02)
 
 ### Features
