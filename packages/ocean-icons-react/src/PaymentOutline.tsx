@@ -4,7 +4,7 @@ type IconProps = {
   size?: number;
 } & React.SVGProps<SVGSVGElement>;
 
-const SupplierOutline = (
+const PaymentOutline = (
   { size = 24, ...props }: IconProps,
   svgRef: React.Ref<SVGSVGElement>
 ) => (
@@ -19,21 +19,21 @@ const SupplierOutline = (
     {...props}
   >
     <path
-      d="M18.3832 5.63087C14.8793 2.12304 9.12928 2.12304 5.62537 5.63087C2.48084 8.77891 2.21131 13.546 4.54725 17.0538L4.27771 18.2231L3.91834 19.7521C3.82849 20.2918 4.27771 20.7415 4.72693 20.5616L6.16443 20.1119L7.42225 19.7521C10.8363 21.8208 15.3285 21.2812 18.2933 18.4029C21.8871 14.8951 21.8871 9.13869 18.3832 5.63087Z"
-      strokeWidth="2"
-      strokeMiterlimit="10"
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeMiterlimit={10}
+      strokeWidth={2}
+      d="M18.383 5.63c-3.504-3.507-9.254-3.507-12.758 0-3.144 3.149-3.414 7.916-1.078 11.424l-.27 1.17-.359 1.528c-.09.54.36.99.809.81l1.437-.45 1.258-.36c3.414 2.069 7.907 1.53 10.871-1.35 3.594-3.507 3.594-9.263.09-12.771z"
     />
     <path
-      d="M15 9C14.7 8 13.7 7.5 12 7.5M12 7.5C9.4 7.5 9 9 9 9.8C9 12.9 15 11.3 15 14.3C15 15.1 14.6 16.5 12 16.5M12 7.5V6M12 16.5C10.3 16.5 9.3 16 9 15M12 16.5V18"
-      strokeWidth="2"
-      strokeMiterlimit="10"
       strokeLinecap="round"
       strokeLinejoin="round"
+      strokeMiterlimit={10}
+      strokeWidth={2}
+      d="M15 9c-.3-1-1.3-1.5-3-1.5m0 0C9.4 7.5 9 9 9 9.8c0 3.1 6 1.5 6 4.5 0 .8-.4 2.2-3 2.2m0-9V6m0 10.5c-1.7 0-2.7-.5-3-1.5m3 1.5V18"
     />
   </svg>
 );
 
-const ForwardRef = React.forwardRef(SupplierOutline);
+const ForwardRef = React.forwardRef(PaymentOutline);
 export default ForwardRef;
