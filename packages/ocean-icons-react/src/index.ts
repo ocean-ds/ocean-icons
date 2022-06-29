@@ -280,6 +280,7 @@ export { default as CalculatorOutline } from './CalculatorOutline';
 export { default as CalendarOutline } from './CalendarOutline';
 export { default as CameraOutline } from './CameraOutline';
 export { default as CashOutline } from './CashOutline';
+export { default as CashbackOutline } from './CashbackOutline';
 export { default as ChartBarOutline } from './ChartBarOutline';
 export { default as ChartPieOutline } from './ChartPieOutline';
 export { default as ChartSquareBarOutline } from './ChartSquareBarOutline';
