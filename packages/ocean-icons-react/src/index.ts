@@ -431,6 +431,7 @@ export { default as ReceiptTaxOutline } from './ReceiptTaxOutline';
 export { default as ReferOutline } from './ReferOutline';
 export { default as RefreshOutline } from './RefreshOutline';
 export { default as ReplyOutline } from './ReplyOutline';
+export { default as RetailerOutline } from './RetailerOutline';
 export { default as RewindOutline } from './RewindOutline';
 export { default as RssOutline } from './RssOutline';
 export { default as SaveAsOutline } from './SaveAsOutline';
