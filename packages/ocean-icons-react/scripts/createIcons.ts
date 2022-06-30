@@ -7,7 +7,8 @@ const resetSrcDir = async () => {
     await fs.rmdir('src', { recursive: true });
     await fs.mkdir('src');
   } catch (error) {
-    throw new Error(error);
+    console.error(error);
+    throw new Error('Can not reset src dir');
   }
 };
 
@@ -45,7 +46,8 @@ const genNamedComponentFromBuffer = async (
       { componentName }
     );
   } catch (error) {
-    throw new Error(error);
+    console.error(error);
+    throw new Error('Can not generate jsx from template');
   }
 };
 

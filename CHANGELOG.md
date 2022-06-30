@@ -3,6 +3,76 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/ocean-ds/ocean-icons/compare/v1.7.1...v1.8.0) (2022-06-30)
+
+### Features
+
+- include cashback-outline icon ([#186](https://github.com/ocean-ds/ocean-icons/issues/186)) ([5670b47](https://github.com/ocean-ds/ocean-icons/commit/5670b477d0a72d72c3a96ed90980f74d8e170b52))
+
+## [1.7.1](https://github.com/ocean-ds/ocean-icons/compare/v1.7.0...v1.7.1) (2022-06-29)
+
+**Note:** Version bump only for package root
+
+# [1.7.0](https://github.com/ocean-ds/ocean-icons/compare/v1.6.1...v1.7.0) (2022-06-23)
+
+### Features
+
+- include blu-logo ([#182](https://github.com/ocean-ds/ocean-icons/issues/182)) ([00f955b](https://github.com/ocean-ds/ocean-icons/commit/00f955b8af563531f8d024f20a7e23fe6e9664df))
+
+## [1.6.1](https://github.com/ocean-ds/ocean-icons/compare/v1.6.0...v1.6.1) (2022-05-02)
+
+### Bug Fixes
+
+- export icons ([#171](https://github.com/ocean-ds/ocean-icons/issues/171)) ([9295289](https://github.com/ocean-ds/ocean-icons/commit/92952898073fe0095cc2cac5a23d027fe9b4e878))
+
+# [1.6.0](https://github.com/ocean-ds/ocean-icons/compare/v1.5.1...v1.6.0) (2022-05-02)
+
+### Features
+
+- add tax icons ([#169](https://github.com/ocean-ds/ocean-icons/issues/169)) ([0f6ca5c](https://github.com/ocean-ds/ocean-icons/commit/0f6ca5c26b51cd53894c19e134db671a891a336f))
+
+## [1.5.1](https://github.com/ocean-ds/ocean-icons/compare/v1.5.0...v1.5.1) (2022-03-25)
+
+### Bug Fixes
+
+- adjust presentation qrcode outline svg ([#167](https://github.com/ocean-ds/ocean-icons/issues/167)) ([b98bee0](https://github.com/ocean-ds/ocean-icons/commit/b98bee09145ab6ed325d13d85c0d63bf19f331f9))
+
+# [1.5.0](https://github.com/ocean-ds/ocean-icons/compare/v1.4.1...v1.5.0) (2022-03-25)
+
+### Features
+
+- add presentation qrcode icon ([#164](https://github.com/ocean-ds/ocean-icons/issues/164)) ([7106e64](https://github.com/ocean-ds/ocean-icons/commit/7106e64bf3d9aef274210c1b9d1948b9b6151f7c))
+
+## [1.4.1](https://github.com/ocean-ds/ocean-icons/compare/v1.4.0...v1.4.1) (2022-03-22)
+
+### Bug Fixes
+
+- fix stroke color pix icon ([#163](https://github.com/ocean-ds/ocean-icons/issues/163)) ([eceacd8](https://github.com/ocean-ds/ocean-icons/commit/eceacd8d63b7cbb90efb22e76c7063a67f22dcf3))
+
+# [1.4.0](https://github.com/ocean-ds/ocean-icons/compare/v1.3.1...v1.4.0) (2022-03-16)
+
+### Features
+
+- **paymentoutline:** add payment outline icon ([#162](https://github.com/ocean-ds/ocean-icons/issues/162)) ([831cb2d](https://github.com/ocean-ds/ocean-icons/commit/831cb2dc55d7e01a846532ad44414395832bbe09))
+
+## [1.3.1](https://github.com/ocean-ds/ocean-icons/compare/v1.3.0...v1.3.1) (2022-03-15)
+
+### Bug Fixes
+
+- **supplier:** change stroke to fill ([#161](https://github.com/ocean-ds/ocean-icons/issues/161)) ([9b5c649](https://github.com/ocean-ds/ocean-icons/commit/9b5c6496b9cf500bff5127ab560156ef23c3336b))
+
+# [1.3.0](https://github.com/ocean-ds/ocean-icons/compare/v1.2.0...v1.3.0) (2022-03-14)
+
+### Features
+
+- **supplier:** add supplier icon ([#159](https://github.com/ocean-ds/ocean-icons/issues/159)) ([b5d034b](https://github.com/ocean-ds/ocean-icons/commit/b5d034bae58e160ba0e4241b1dcf3274656ad79c))
+
+# [1.2.0](https://github.com/ocean-ds/ocean-icons/compare/v1.1.1...v1.2.0) (2022-02-10)
+
+### Features
+
+- add pix icon ([#147](https://github.com/ocean-ds/ocean-icons/issues/147)) ([aaaa5c0](https://github.com/ocean-ds/ocean-icons/commit/aaaa5c08273e0df45de3948330a6cc0f8e37f055))
+
 ## [1.1.1](https://github.com/ocean-ds/ocean-icons/compare/v1.1.0...v1.1.1) (2021-08-20)
 
 **Note:** Version bump only for package root
