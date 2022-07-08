@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.1](https://github.com/ocean-ds/ocean-icons/compare/v1.9.0...v1.9.1) (2022-07-08)
+
+### Bug Fixes
+
+- **cashbackoutline:** fix CashbackOutline stroke ([#189](https://github.com/ocean-ds/ocean-icons/issues/189)) ([5ae3e91](https://github.com/ocean-ds/ocean-icons/commit/5ae3e91254547f9de5e2ebf832590edeef1b416e))
+
 # [1.9.0](https://github.com/ocean-ds/ocean-icons/compare/v1.8.0...v1.9.0) (2022-07-01)
 
 ### Features
