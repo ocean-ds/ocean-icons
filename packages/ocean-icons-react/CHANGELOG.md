@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.2](https://github.com/ocean-ds/ocean-icons/compare/v1.9.1...v1.9.2) (2022-07-19)
+
+### Bug Fixes
+
+- fix pix-icon ([#192](https://github.com/ocean-ds/ocean-icons/issues/192)) ([3768e27](https://github.com/ocean-ds/ocean-icons/commit/3768e27ce9b68539b4ea350ac3fea14749a6cdaf))
+
 ## [1.9.1](https://github.com/ocean-ds/ocean-icons/compare/v1.9.0...v1.9.1) (2022-07-08)
 
 ### Bug Fixes
