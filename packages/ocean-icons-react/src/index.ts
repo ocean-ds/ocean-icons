@@ -495,3 +495,4 @@ export { default as XOutline } from './XOutline';
 export { default as ZeroOutline } from './ZeroOutline';
 export { default as ZoomInOutline } from './ZoomInOutline';
 export { default as ZoomOutOutline } from './ZoomOutOutline';
+export { default as TaxOutline } from './TaxOutline';
