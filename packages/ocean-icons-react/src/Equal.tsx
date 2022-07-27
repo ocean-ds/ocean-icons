@@ -18,7 +18,7 @@ const Equal = (
     {...props}
   >
     <path
-      stroke="#67697A"
+      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}

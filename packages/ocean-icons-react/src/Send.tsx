@@ -18,12 +18,12 @@ const Send = (
     {...props}
   >
     <path
-      stroke="#67697A"
+      stroke="currentColor"
       strokeLinejoin="round"
       strokeWidth={2}
       d="M18 2L2 8.427l6.454 3.146L11.614 18 18 2z"
     />
-    <path stroke="#67697A" strokeWidth={2} d="M8 12L18 2" />
+    <path stroke="currentColor" strokeWidth={2} d="M8 12L18 2" />
   </svg>
 );
 
