@@ -18,7 +18,7 @@ const ArrowsExpand = (
     {...props}
   >
     <path
-      stroke="#374151"
+      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}

@@ -18,11 +18,12 @@ const TaxOutline = (
     ref={svgRef}
     {...props}
   >
-    <path d="M10 8V16" strokeWidth="2" strokeLinecap="round" />
-    <path d="M14 8V16" strokeWidth="2" strokeLinecap="round" />
-    <path d="M4 4L20 4" strokeWidth="2" strokeLinecap="round" />
-    <path d="M4 20L20 20" strokeWidth="2" strokeLinecap="round" />
-    <rect x="6" y="4" width="12" height="16" strokeWidth="2" />
+    <path
+      strokeLinecap="round"
+      strokeWidth={2}
+      d="M10 8v8m4-8v8M4 4h16M4 20h16"
+    />
+    <path strokeWidth={2} d="M6 4h12v16H6z" />
   </svg>
 );
 
