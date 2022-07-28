@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.10.1](https://github.com/ocean-ds/ocean-icons/compare/v1.10.0...v1.10.1) (2022-07-28)
+
+### Bug Fixes
+
+- corrects the icons stroke-width and color to currentColor ([#196](https://github.com/ocean-ds/ocean-icons/issues/196)) ([57bb128](https://github.com/ocean-ds/ocean-icons/commit/57bb12804988b3151267f758b7a64baa66c61d44))
+
 # [1.10.0](https://github.com/ocean-ds/ocean-icons/compare/v1.9.2...v1.10.0) (2022-07-26)
 
 ### Features
