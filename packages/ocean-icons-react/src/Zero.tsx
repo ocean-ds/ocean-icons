@@ -22,12 +22,12 @@ const Zero = (
       height={14}
       x={6}
       y={3}
-      stroke="#67697A"
+      stroke="currentColor"
       strokeWidth={2}
       rx={4}
     />
     <path
-      stroke="#67697A"
+      stroke="currentColor"
       strokeLinecap="round"
       strokeWidth={2}
       d="M1-1h18.809"

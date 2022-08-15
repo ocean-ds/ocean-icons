@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.10.1](https://github.com/ocean-ds/ocean-icons/compare/v1.10.0...v1.10.1) (2022-07-28)
+
+### Bug Fixes
+
+- corrects the icons stroke-width and color to currentColor ([#196](https://github.com/ocean-ds/ocean-icons/issues/196)) ([57bb128](https://github.com/ocean-ds/ocean-icons/commit/57bb12804988b3151267f758b7a64baa66c61d44))
+
+# [1.10.0](https://github.com/ocean-ds/ocean-icons/compare/v1.9.2...v1.10.0) (2022-07-26)
+
+### Features
+
+- tax outline ([#194](https://github.com/ocean-ds/ocean-icons/issues/194)) ([f674b7f](https://github.com/ocean-ds/ocean-icons/commit/f674b7fcc2a197f831b7a990ac3564e121777d05))
+
+## [1.9.1](https://github.com/ocean-ds/ocean-icons/compare/v1.9.0...v1.9.1) (2022-07-08)
+
+### Bug Fixes
+
+- **cashbackoutline:** fix CashbackOutline stroke ([#189](https://github.com/ocean-ds/ocean-icons/issues/189)) ([5ae3e91](https://github.com/ocean-ds/ocean-icons/commit/5ae3e91254547f9de5e2ebf832590edeef1b416e))
+
+# [1.9.0](https://github.com/ocean-ds/ocean-icons/compare/v1.8.0...v1.9.0) (2022-07-01)
+
+### Features
+
+- include retailer icon ([#187](https://github.com/ocean-ds/ocean-icons/issues/187)) ([9d5361b](https://github.com/ocean-ds/ocean-icons/commit/9d5361bb47516ade82757039f8210ca37250aa7d))
+
 # [1.8.0](https://github.com/ocean-ds/ocean-icons/compare/v1.7.1...v1.8.0) (2022-06-30)
 
 ### Features
