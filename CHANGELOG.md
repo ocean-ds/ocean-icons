@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.10.2](https://github.com/ocean-ds/ocean-icons/compare/v1.10.1...v1.10.2) (2022-08-15)
+
+### Bug Fixes
+
+- packages/ocean-icons-react/package.json to reduce vulnerabilities ([#135](https://github.com/ocean-ds/ocean-icons/issues/135)) ([4259f72](https://github.com/ocean-ds/ocean-icons/commit/4259f7220d8efa739b814c1893defee5d00447b7))
+
 ## [1.10.1](https://github.com/ocean-ds/ocean-icons/compare/v1.10.0...v1.10.1) (2022-07-28)
 
 ### Bug Fixes
