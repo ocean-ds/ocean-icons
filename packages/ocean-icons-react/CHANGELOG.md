@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.10.3](https://github.com/ocean-ds/ocean-icons/compare/v1.10.2...v1.10.3) (2022-08-19)
+
+### Bug Fixes
+
+- corrects wrong stroke on SupplierOutline react svg ([#201](https://github.com/ocean-ds/ocean-icons/issues/201)) ([24d65c1](https://github.com/ocean-ds/ocean-icons/commit/24d65c1a65169a779ec3d9f4c44caf42cb526235))
+
 ## [1.10.2](https://github.com/ocean-ds/ocean-icons/compare/v1.10.1...v1.10.2) (2022-08-15)
 
 ### Bug Fixes
