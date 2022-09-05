@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 
 type IconProps = {
   size?: number;
@@ -6,7 +6,7 @@ type IconProps = {
 
 const ChevronDoubleUpOutline = (
   { size = 24, ...props }: IconProps,
-  svgRef: React.Ref<SVGSVGElement>
+  ref: React.Ref<SVGSVGElement>
 ) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -15,17 +15,17 @@ const ChevronDoubleUpOutline = (
     stroke="currentColor"
     width={size}
     height={size}
-    ref={svgRef}
+    ref={ref}
     {...props}
   >
     <path
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M5 11l7-7 7 7M5 19l7-7 7 7"
+      d="m5 11 7-7 7 7M5 19l7-7 7 7"
     />
   </svg>
 );
 
-const ForwardRef = React.forwardRef(ChevronDoubleUpOutline);
+const ForwardRef = forwardRef(ChevronDoubleUpOutline);
 export default ForwardRef;

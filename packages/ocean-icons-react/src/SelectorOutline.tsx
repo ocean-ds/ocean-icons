@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 
 type IconProps = {
   size?: number;
@@ -6,7 +6,7 @@ type IconProps = {
 
 const SelectorOutline = (
   { size = 24, ...props }: IconProps,
-  svgRef: React.Ref<SVGSVGElement>
+  ref: React.Ref<SVGSVGElement>
 ) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -15,17 +15,17 @@ const SelectorOutline = (
     stroke="currentColor"
     width={size}
     height={size}
-    ref={svgRef}
+    ref={ref}
     {...props}
   >
     <path
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M8 9l4-4 4 4m0 6l-4 4-4-4"
+      d="m8 9 4-4 4 4m0 6-4 4-4-4"
     />
   </svg>
 );
 
-const ForwardRef = React.forwardRef(SelectorOutline);
+const ForwardRef = forwardRef(SelectorOutline);
 export default ForwardRef;

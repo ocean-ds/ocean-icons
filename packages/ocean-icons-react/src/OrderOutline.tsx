@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 
 type IconProps = {
   size?: number;
@@ -6,7 +6,7 @@ type IconProps = {
 
 const OrderOutline = (
   { size = 24, ...props }: IconProps,
-  svgRef: React.Ref<SVGSVGElement>
+  ref: React.Ref<SVGSVGElement>
 ) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +15,7 @@ const OrderOutline = (
     stroke="currentColor"
     width={size}
     height={size}
-    ref={svgRef}
+    ref={ref}
     {...props}
   >
     <g strokeLinecap="round" strokeWidth={2} clipPath="url(#prefix__a)">
@@ -28,7 +28,7 @@ const OrderOutline = (
     />
     <path
       fill="currentColor"
-      d="M12.574 20.276a1 1 0 100-2v2zm4.744-6.745a1 1 0 102 0h-2zM5.872 4.957h10.532v-2H5.872v2zm-.915 12.404V5.872h-2v11.489h2zm7.617.915H5.872v2h6.702v-2zm4.744-12.404v7.66h2v-7.66h-2zM2.958 17.361a2.915 2.915 0 002.914 2.915v-2a.915.915 0 01-.915-.915h-2zM16.403 4.957c.505 0 .914.41.914.915h2a2.915 2.915 0 00-2.915-2.915v2zm-10.532-2a2.915 2.915 0 00-2.915 2.915h2c0-.505.41-.915.915-.915v-2z"
+      d="M12.574 20.276a1 1 0 1 0 0-2v2zm4.744-6.745a1 1 0 1 0 2 0h-2zM5.872 4.957h10.532v-2H5.872v2zm-.915 12.404V5.872h-2v11.489h2zm7.617.915H5.872v2h6.702v-2zm4.744-12.404v7.66h2v-7.66h-2zM2.958 17.361a2.915 2.915 0 0 0 2.914 2.915v-2a.915.915 0 0 1-.915-.915h-2zM16.403 4.957c.505 0 .914.41.914.915h2a2.915 2.915 0 0 0-2.915-2.915v2zm-10.532-2a2.915 2.915 0 0 0-2.915 2.915h2c0-.505.41-.915.915-.915v-2z"
     />
     <defs>
       <clipPath id="prefix__a">
@@ -42,5 +42,5 @@ const OrderOutline = (
   </svg>
 );
 
-const ForwardRef = React.forwardRef(OrderOutline);
+const ForwardRef = forwardRef(OrderOutline);
 export default ForwardRef;

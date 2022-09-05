@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 
 type IconProps = {
   size?: number;
@@ -6,7 +6,7 @@ type IconProps = {
 
 const MenuAlt3Outline = (
   { size = 24, ...props }: IconProps,
-  svgRef: React.Ref<SVGSVGElement>
+  ref: React.Ref<SVGSVGElement>
 ) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +15,7 @@ const MenuAlt3Outline = (
     stroke="currentColor"
     width={size}
     height={size}
-    ref={svgRef}
+    ref={ref}
     {...props}
   >
     <path
@@ -27,5 +27,5 @@ const MenuAlt3Outline = (
   </svg>
 );
 
-const ForwardRef = React.forwardRef(MenuAlt3Outline);
+const ForwardRef = forwardRef(MenuAlt3Outline);
 export default ForwardRef;
