@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 
 type IconProps = {
   size?: number;
@@ -6,7 +6,7 @@ type IconProps = {
 
 const Cash = (
   { size = 24, ...props }: IconProps,
-  svgRef: React.Ref<SVGSVGElement>
+  ref: React.Ref<SVGSVGElement>
 ) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -14,16 +14,16 @@ const Cash = (
     fill="currentColor"
     width={size}
     height={size}
-    ref={svgRef}
+    ref={ref}
     {...props}
   >
     <path
       fillRule="evenodd"
-      d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z"
+      d="M4 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2V6h10a2 2 0 0 0-2-2H4zm2 6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-4zm6 4a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"
       clipRule="evenodd"
     />
   </svg>
 );
 
-const ForwardRef = React.forwardRef(Cash);
+const ForwardRef = forwardRef(Cash);
 export default ForwardRef;

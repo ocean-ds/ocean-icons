@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 
 type IconProps = {
   size?: number;
@@ -6,7 +6,7 @@ type IconProps = {
 
 const UserRemoveOutline = (
   { size = 24, ...props }: IconProps,
-  svgRef: React.Ref<SVGSVGElement>
+  ref: React.Ref<SVGSVGElement>
 ) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -15,17 +15,17 @@ const UserRemoveOutline = (
     stroke="currentColor"
     width={size}
     height={size}
-    ref={svgRef}
+    ref={ref}
     {...props}
   >
     <path
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M13 7a4 4 0 11-8 0 4 4 0 018 0zm-4 7a6 6 0 00-6 6v1h12v-1a6 6 0 00-6-6zm12-2h-6"
+      d="M13 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0zm-4 7a6 6 0 0 0-6 6v1h12v-1a6 6 0 0 0-6-6zm12-2h-6"
     />
   </svg>
 );
 
-const ForwardRef = React.forwardRef(UserRemoveOutline);
+const ForwardRef = forwardRef(UserRemoveOutline);
 export default ForwardRef;

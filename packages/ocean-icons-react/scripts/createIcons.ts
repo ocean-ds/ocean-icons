@@ -1,4 +1,4 @@
-import svgr from '@svgr/core';
+import { transform } from '@svgr/core';
 import { promises as fs } from 'fs';
 import IconTemplate from './IconTemplate';
 
@@ -30,13 +30,14 @@ const genNamedComponentFromBuffer = async (
   svgCode: Buffer
 ): Promise<string> => {
   try {
-    return await svgr(
+    return await transform(
       svgCode,
       {
         template: IconTemplate,
         svgo: true,
         ref: true,
         svgProps: { width: '{size}', height: '{size}' },
+        typescript: true,
         plugins: [
           '@svgr/plugin-svgo',
           '@svgr/plugin-jsx',
@@ -63,6 +64,7 @@ const genNamedComponentFromBuffer = async (
       const exportName = getIconNameByType(iconName, getIconSuffixByType(type));
 
       const data = await fs.readFile(`${inputPath}/${type}/${iconName}`);
+
       const jsx = await genNamedComponentFromBuffer(exportName, data);
       await fs.writeFile(`src/${exportName}.tsx`, jsx);
 

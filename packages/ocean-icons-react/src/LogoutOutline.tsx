@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 
 type IconProps = {
   size?: number;
@@ -6,7 +6,7 @@ type IconProps = {
 
 const LogoutOutline = (
   { size = 24, ...props }: IconProps,
-  svgRef: React.Ref<SVGSVGElement>
+  ref: React.Ref<SVGSVGElement>
 ) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -15,17 +15,17 @@ const LogoutOutline = (
     stroke="currentColor"
     width={size}
     height={size}
-    ref={svgRef}
+    ref={ref}
     {...props}
   >
     <path
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"
+      d="m17 16 4-4m0 0-4-4m4 4H7m6 4v1a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v1"
     />
   </svg>
 );
 
-const ForwardRef = React.forwardRef(LogoutOutline);
+const ForwardRef = forwardRef(LogoutOutline);
 export default ForwardRef;

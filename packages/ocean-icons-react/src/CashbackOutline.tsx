@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 
 type IconProps = {
   size?: number;
@@ -6,7 +6,7 @@ type IconProps = {
 
 const CashbackOutline = (
   { size = 24, ...props }: IconProps,
-  svgRef: React.Ref<SVGSVGElement>
+  ref: React.Ref<SVGSVGElement>
 ) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +15,7 @@ const CashbackOutline = (
     stroke="currentColor"
     width={size}
     height={size}
-    ref={svgRef}
+    ref={ref}
     {...props}
   >
     <path
@@ -29,10 +29,10 @@ const CashbackOutline = (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M3 12a9 9 0 112 5.657M7 17H4v2.7"
+      d="M3 12a9 9 0 1 1 2 5.657M7 17H4v2.7"
     />
   </svg>
 );
 
-const ForwardRef = React.forwardRef(CashbackOutline);
+const ForwardRef = forwardRef(CashbackOutline);
 export default ForwardRef;

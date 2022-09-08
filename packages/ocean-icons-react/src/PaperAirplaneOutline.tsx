@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 
 type IconProps = {
   size?: number;
@@ -6,7 +6,7 @@ type IconProps = {
 
 const PaperAirplaneOutline = (
   { size = 24, ...props }: IconProps,
-  svgRef: React.Ref<SVGSVGElement>
+  ref: React.Ref<SVGSVGElement>
 ) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -15,17 +15,17 @@ const PaperAirplaneOutline = (
     stroke="currentColor"
     width={size}
     height={size}
-    ref={svgRef}
+    ref={ref}
     {...props}
   >
     <path
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
+      d="m12 19 9 2-9-18-9 18 9-2zm0 0v-8"
     />
   </svg>
 );
 
-const ForwardRef = React.forwardRef(PaperAirplaneOutline);
+const ForwardRef = forwardRef(PaperAirplaneOutline);
 export default ForwardRef;

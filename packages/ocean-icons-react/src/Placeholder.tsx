@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 
 type IconProps = {
   size?: number;
@@ -6,7 +6,7 @@ type IconProps = {
 
 const Placeholder = (
   { size = 24, ...props }: IconProps,
-  svgRef: React.Ref<SVGSVGElement>
+  ref: React.Ref<SVGSVGElement>
 ) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -14,7 +14,7 @@ const Placeholder = (
     fill="currentColor"
     width={size}
     height={size}
-    ref={svgRef}
+    ref={ref}
     {...props}
   >
     <path
@@ -27,5 +27,5 @@ const Placeholder = (
   </svg>
 );
 
-const ForwardRef = React.forwardRef(Placeholder);
+const ForwardRef = forwardRef(Placeholder);
 export default ForwardRef;
