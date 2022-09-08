@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.10.4](https://github.com/ocean-ds/ocean-icons/compare/v1.10.3...v1.10.4) (2022-09-08)
+
+### Bug Fixes
+
+- adjust svgr to version 6.3.1 ([#211](https://github.com/ocean-ds/ocean-icons/issues/211)) ([2afebde](https://github.com/ocean-ds/ocean-icons/commit/2afebde010ccd027ef054154bce945fc47997b9a))
+
 ## [1.10.3](https://github.com/ocean-ds/ocean-icons/compare/v1.10.2...v1.10.3) (2022-08-19)
 
 ### Bug Fixes
