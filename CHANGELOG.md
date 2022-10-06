@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.11.0](https://github.com/ocean-ds/ocean-icons/compare/v1.10.4...v1.11.0) (2022-10-06)
+
+### Features
+
+- include whatsapp icon ([#221](https://github.com/ocean-ds/ocean-icons/issues/221)) ([f7b7e91](https://github.com/ocean-ds/ocean-icons/commit/f7b7e91bce23bd60caf613a2acb44b083ee5527f))
+
 ## [1.10.4](https://github.com/ocean-ds/ocean-icons/compare/v1.10.3...v1.10.4) (2022-09-08)
 
 ### Bug Fixes
