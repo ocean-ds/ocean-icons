@@ -35,7 +35,7 @@
     "directory": "packages/ocean-icons-react"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-commonjs": "^23.0.2",
     "@rollup/plugin-node-resolve": "^13.0.0",
     "@svgr/core": "^6.3.1",
     "@svgr/plugin-prettier": "^5.5.0",
