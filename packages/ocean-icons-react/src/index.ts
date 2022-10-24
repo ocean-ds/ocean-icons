@@ -180,6 +180,7 @@ export { default as ReceiptTax } from './ReceiptTax';
 export { default as Refer } from './Refer';
 export { default as Refresh } from './Refresh';
 export { default as Reply } from './Reply';
+export { default as Retailer } from './Retailer';
 export { default as Rewind } from './Rewind';
 export { default as Rss } from './Rss';
 export { default as SaveAs } from './SaveAs';
