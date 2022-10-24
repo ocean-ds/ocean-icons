@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.12.0](https://github.com/ocean-ds/ocean-icons/compare/v1.11.0...v1.12.0) (2022-10-24)
+
+### Features
+
+- add icon retailer solid ([#227](https://github.com/ocean-ds/ocean-icons/issues/227)) ([698a0b1](https://github.com/ocean-ds/ocean-icons/commit/698a0b132317d738b03377c1ec53dda96718d549))
+
 # [1.11.0](https://github.com/ocean-ds/ocean-icons/compare/v1.10.4...v1.11.0) (2022-10-06)
 
 ### Features
