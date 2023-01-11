@@ -1,3 +1,5 @@
+/* eslint-disable no-restricted-syntax */
+/* eslint-disable no-await-in-loop */
 import { transform } from '@svgr/core';
 import { promises as fs } from 'fs';
 import IconTemplate from './IconTemplate';
