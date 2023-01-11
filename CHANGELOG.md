@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.12.1](https://github.com/ocean-ds/ocean-icons/compare/v1.12.0...v1.12.1) (2023-01-11)
+
+**Note:** Version bump only for package root
+
 # [1.12.0](https://github.com/ocean-ds/ocean-icons/compare/v1.11.0...v1.12.0) (2022-10-24)
 
 ### Features
