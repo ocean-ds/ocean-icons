@@ -1,6 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any, @typescript-eslint/explicit-module-boundary-types */
-const IconTemplate = ({ jsx, exports, componentName }: any, { tpl }: any) => {
-  return tpl`
+const IconTemplate = (
+  { jsx, exports, componentName }: any,
+  { tpl }: any
+) => tpl`
     import React, { forwardRef } from 'react';
     ${'\n'}
     type IconProps = {
@@ -13,6 +15,5 @@ const IconTemplate = ({ jsx, exports, componentName }: any, { tpl }: any) => {
     
     ${exports}
   `;
-};
 
 export default IconTemplate;
