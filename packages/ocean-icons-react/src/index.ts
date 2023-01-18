@@ -272,6 +272,7 @@ export { default as BarcodeOutline } from './BarcodeOutline';
 export { default as BeakerOutline } from './BeakerOutline';
 export { default as BellOutline } from './BellOutline';
 export { default as BluLogoOutline } from './BluLogoOutline';
+export { default as BmsOutline } from './BmsOutline';
 export { default as BookOpenOutline } from './BookOpenOutline';
 export { default as BookmarkAltOutline } from './BookmarkAltOutline';
 export { default as BookmarkOutline } from './BookmarkOutline';
