@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.13.0](https://github.com/ocean-ds/ocean-icons/compare/v1.12.1...v1.13.0) (2023-01-18)
+
+### Features
+
+- add icon bms outline ([#248](https://github.com/ocean-ds/ocean-icons/issues/248)) ([1dd1620](https://github.com/ocean-ds/ocean-icons/commit/1dd162080a688ac2ea92a6db3e5877fea540d9d5))
+
 ## [1.12.1](https://github.com/ocean-ds/ocean-icons/compare/v1.12.0...v1.12.1) (2023-01-11)
 
 **Note:** Version bump only for package @useblu/ocean-icons-react
