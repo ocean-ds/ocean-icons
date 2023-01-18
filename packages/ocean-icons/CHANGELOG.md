@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.14.0](https://github.com/ocean-ds/ocean-icons/compare/v1.13.0...v1.14.0) (2023-01-18)
+
+### Features
+
+- add icon pagblu outline ([#247](https://github.com/ocean-ds/ocean-icons/issues/247)) ([9f22a0f](https://github.com/ocean-ds/ocean-icons/commit/9f22a0fe24b9f416cc44b1a77ee85c63f365478c))
+
 # [1.13.0](https://github.com/ocean-ds/ocean-icons/compare/v1.12.1...v1.13.0) (2023-01-18)
 
 ### Features
