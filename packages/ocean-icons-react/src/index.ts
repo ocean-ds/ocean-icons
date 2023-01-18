@@ -404,6 +404,7 @@ export { default as MusicNoteOutline } from './MusicNoteOutline';
 export { default as NewspaperOutline } from './NewspaperOutline';
 export { default as OfficeBuildingOutline } from './OfficeBuildingOutline';
 export { default as OrderOutline } from './OrderOutline';
+export { default as PagBluOutline } from './PagBluOutline';
 export { default as PaperAirplaneOutline } from './PaperAirplaneOutline';
 export { default as PaperClipOutline } from './PaperClipOutline';
 export { default as PauseOutline } from './PauseOutline';
