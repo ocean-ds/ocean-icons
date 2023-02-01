@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.15.0](https://github.com/ocean-ds/ocean-icons/compare/v1.14.0...v1.15.0) (2023-02-01)
+
+### Features
+
+- add barcode bubble outline icon ([#250](https://github.com/ocean-ds/ocean-icons/issues/250)) ([8d42225](https://github.com/ocean-ds/ocean-icons/commit/8d4222537deb75efe863413fd047ab44725cb0f8))
+
 # [1.14.0](https://github.com/ocean-ds/ocean-icons/compare/v1.13.0...v1.14.0) (2023-01-18)
 
 ### Features
