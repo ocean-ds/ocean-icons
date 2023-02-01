@@ -268,6 +268,7 @@ export { default as AtSymbolOutline } from './AtSymbolOutline';
 export { default as BackspaceOutline } from './BackspaceOutline';
 export { default as BadgeCheckOutline } from './BadgeCheckOutline';
 export { default as BanOutline } from './BanOutline';
+export { default as BarcodeBubbleOutline } from './BarcodeBubbleOutline';
 export { default as BarcodeOutline } from './BarcodeOutline';
 export { default as BeakerOutline } from './BeakerOutline';
 export { default as BellOutline } from './BellOutline';
