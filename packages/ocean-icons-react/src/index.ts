@@ -135,6 +135,7 @@ export { default as LocationMarker } from './LocationMarker';
 export { default as LockClosed } from './LockClosed';
 export { default as LockOpen } from './LockOpen';
 export { default as Login } from './Login';
+export { default as LogoBlu } from './LogoBlu';
 export { default as Logout } from './Logout';
 export { default as MailOpen } from './MailOpen';
 export { default as Mail } from './Mail';
