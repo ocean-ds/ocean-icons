@@ -31,6 +31,7 @@ export { default as BookOpen } from './BookOpen';
 export { default as BookmarkAlt } from './BookmarkAlt';
 export { default as Bookmark } from './Bookmark';
 export { default as Briefcase } from './Briefcase';
+export { default as BtokenOutline } from './BtokenOutline';
 export { default as Cake } from './Cake';
 export { default as Calculator } from './Calculator';
 export { default as Calendar } from './Calendar';
