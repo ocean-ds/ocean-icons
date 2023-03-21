@@ -278,6 +278,7 @@ export { default as BookOpenOutline } from './BookOpenOutline';
 export { default as BookmarkAltOutline } from './BookmarkAltOutline';
 export { default as BookmarkOutline } from './BookmarkOutline';
 export { default as BriefcaseOutline } from './BriefcaseOutline';
+export { default as BtokenOutlineOutline } from './BtokenOutlineOutline';
 export { default as CakeOutline } from './CakeOutline';
 export { default as CalculatorOutline } from './CalculatorOutline';
 export { default as CalendarOutline } from './CalendarOutline';
