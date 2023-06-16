@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.17.0](https://github.com/ocean-ds/ocean-icons/compare/v1.16.1...v1.17.0) (2023-06-16)
+
+### Features
+
+- add charge, report and solid pagblu ([#261](https://github.com/ocean-ds/ocean-icons/issues/261)) ([640890d](https://github.com/ocean-ds/ocean-icons/commit/640890d608099c50ffe5cfffef594b5d4d9a4f9d))
+
 ## [1.16.1](https://github.com/ocean-ds/ocean-icons/compare/v1.16.0...v1.16.1) (2023-03-23)
 
 **Note:** Version bump only for package @useblu/ocean-icons-react
