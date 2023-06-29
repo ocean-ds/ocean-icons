@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.18.0](https://github.com/ocean-ds/ocean-icons/compare/v1.17.0...v1.18.0) (2023-06-29)
+
+### Features
+
+- update alert component icon in default state ([#262](https://github.com/ocean-ds/ocean-icons/issues/262)) ([04f70db](https://github.com/ocean-ds/ocean-icons/commit/04f70db7dee27d8248b8c37ab1d26ab2f0b6a433))
+
 # [1.17.0](https://github.com/ocean-ds/ocean-icons/compare/v1.16.1...v1.17.0) (2023-06-16)
 
 ### Features
