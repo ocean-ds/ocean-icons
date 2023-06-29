@@ -22,7 +22,7 @@ const InformationCircleOutline = (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"
+      d="M12 16v-4 4zm0-8h.01H12zm9 4a9 9 0 1 0-18 0 9 9 0 0 0 18 0z"
     />
   </svg>
 );
