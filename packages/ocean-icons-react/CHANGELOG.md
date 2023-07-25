@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.19.0](https://github.com/ocean-ds/ocean-icons/compare/v1.18.0...v1.19.0) (2023-07-25)
+
+### Features
+
+- add social media icons ([#263](https://github.com/ocean-ds/ocean-icons/issues/263)) ([d58c0c3](https://github.com/ocean-ds/ocean-icons/commit/d58c0c313b571ab29f5b46df5305409c9f1efe2e))
+
 # [1.18.0](https://github.com/ocean-ds/ocean-icons/compare/v1.17.0...v1.18.0) (2023-06-29)
 
 ### Features
