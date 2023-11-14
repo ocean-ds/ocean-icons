@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.20.0](https://github.com/ocean-ds/ocean-icons/compare/v1.19.0...v1.20.0) (2023-11-14)
+
+### Features
+
+- add paper plane outline icon ([#264](https://github.com/ocean-ds/ocean-icons/issues/264)) ([360605c](https://github.com/ocean-ds/ocean-icons/commit/360605c7919098d48dccac96bcc46bc334ce1c48))
+
 # [1.19.0](https://github.com/ocean-ds/ocean-icons/compare/v1.18.0...v1.19.0) (2023-07-25)
 
 ### Features
