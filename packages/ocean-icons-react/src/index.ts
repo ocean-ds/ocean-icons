@@ -412,6 +412,8 @@ export { default as MicrophoneOutline } from './MicrophoneOutline';
 export { default as MinusCircleOutline } from './MinusCircleOutline';
 export { default as MinusSmOutline } from './MinusSmOutline';
 export { default as MinusOutline } from './MinusOutline';
+export { default as MoneyInflowOutline } from './MoneyInflowOutline';
+export { default as MoneyOutflowOutline } from './MoneyOutflowOutline';
 export { default as MoneyOutline } from './MoneyOutline';
 export { default as MoonOutline } from './MoonOutline';
 export { default as MusicNoteOutline } from './MusicNoteOutline';
