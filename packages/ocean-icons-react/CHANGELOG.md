@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.21.0](https://github.com/ocean-ds/ocean-icons/compare/v1.20.0...v1.21.0) (2024-02-26)
+
+### Features
+
+- add money inflow and outflow icon ([#265](https://github.com/ocean-ds/ocean-icons/issues/265)) ([cfc092c](https://github.com/ocean-ds/ocean-icons/commit/cfc092c5865991230b718c7bc308df0d0d9923a8))
+
 # [1.20.0](https://github.com/ocean-ds/ocean-icons/compare/v1.19.0...v1.20.0) (2023-11-14)
 
 ### Features
