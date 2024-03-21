@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.22.0](https://github.com/ocean-ds/ocean-icons/compare/v1.21.0...v1.22.0) (2024-03-21)
+
+### Features
+
+- add contactbook and score outline ([#266](https://github.com/ocean-ds/ocean-icons/issues/266)) ([6ec79ea](https://github.com/ocean-ds/ocean-icons/commit/6ec79eadd91e595b8f2bded7c595a31c8ae2a0b1))
+
 # [1.21.0](https://github.com/ocean-ds/ocean-icons/compare/v1.20.0...v1.21.0) (2024-02-26)
 
 ### Features
