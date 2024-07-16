@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.24.0](https://github.com/ocean-ds/ocean-icons/compare/v1.23.1...v1.24.0) (2024-07-16)
+
+### Features
+
+- add piggy bank icon ([#269](https://github.com/ocean-ds/ocean-icons/issues/269)) ([7da37f3](https://github.com/ocean-ds/ocean-icons/commit/7da37f3ee83a6e7720e0de832ef51bf31bc55178))
+
 ## [1.23.1](https://github.com/ocean-ds/ocean-icons/compare/v1.23.0...v1.23.1) (2024-06-17)
 
 **Note:** Version bump only for package root
