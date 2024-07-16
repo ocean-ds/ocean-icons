@@ -435,6 +435,7 @@ export { default as PhoneMissedCallOutline } from './PhoneMissedCallOutline';
 export { default as PhoneOutgoingOutline } from './PhoneOutgoingOutline';
 export { default as PhoneOutline } from './PhoneOutline';
 export { default as PhotographOutline } from './PhotographOutline';
+export { default as PiggyBankOutline } from './PiggyBankOutline';
 export { default as PixOutline } from './PixOutline';
 export { default as PlaceholderOutline } from './PlaceholderOutline';
 export { default as PlayOutline } from './PlayOutline';
