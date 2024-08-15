@@ -515,6 +515,7 @@ export { default as ViewGridOutline } from './ViewGridOutline';
 export { default as ViewListOutline } from './ViewListOutline';
 export { default as VolumeOffOutline } from './VolumeOffOutline';
 export { default as VolumeUpOutline } from './VolumeUpOutline';
+export { default as WalletOutline } from './WalletOutline';
 export { default as WhatsappOutline } from './WhatsappOutline';
 export { default as WifiOutline } from './WifiOutline';
 export { default as XCircleOutline } from './XCircleOutline';
