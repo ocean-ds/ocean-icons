@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.25.0](https://github.com/ocean-ds/ocean-icons/compare/v1.24.0...v1.25.0) (2024-08-15)
+
+### Features
+
+- add wallet icon ([#270](https://github.com/ocean-ds/ocean-icons/issues/270)) ([2e652ca](https://github.com/ocean-ds/ocean-icons/commit/2e652caa0b3a85bb0923eb02bbf5099fc2263164))
+
 # [1.24.0](https://github.com/ocean-ds/ocean-icons/compare/v1.23.1...v1.24.0) (2024-07-16)
 
 ### Features
