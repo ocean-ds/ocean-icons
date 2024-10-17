@@ -271,6 +271,7 @@ export { default as ArrowSmLeftOutline } from './ArrowSmLeftOutline';
 export { default as ArrowSmRightOutline } from './ArrowSmRightOutline';
 export { default as ArrowSmUpOutline } from './ArrowSmUpOutline';
 export { default as ArrowUpOutline } from './ArrowUpOutline';
+export { default as ArrowUturnLeftOutline } from './ArrowUturnLeftOutline';
 export { default as ArrowsExpandOutline } from './ArrowsExpandOutline';
 export { default as AtSymbolOutline } from './AtSymbolOutline';
 export { default as BackspaceOutline } from './BackspaceOutline';
