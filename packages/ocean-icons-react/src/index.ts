@@ -394,6 +394,7 @@ export { default as InstagramOutline } from './InstagramOutline';
 export { default as KeyOutline } from './KeyOutline';
 export { default as LibraryOutline } from './LibraryOutline';
 export { default as LightBulbOutline } from './LightBulbOutline';
+export { default as LighthouseOutline } from './LighthouseOutline';
 export { default as LightningBoltOutline } from './LightningBoltOutline';
 export { default as LinkOutline } from './LinkOutline';
 export { default as LinkedinOutline } from './LinkedinOutline';
