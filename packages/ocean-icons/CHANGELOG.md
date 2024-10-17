@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.27.0](https://github.com/ocean-ds/ocean-icons/compare/v1.26.0...v1.27.0) (2024-10-17)
+
+### Features
+
+- add lightouse icon ([#272](https://github.com/ocean-ds/ocean-icons/issues/272)) ([09ed503](https://github.com/ocean-ds/ocean-icons/commit/09ed50308f5cc927bfc4c21400db6dfceb91ebb6))
+
 # [1.26.0](https://github.com/ocean-ds/ocean-icons/compare/v1.25.0...v1.26.0) (2024-10-17)
 
 ### Features
