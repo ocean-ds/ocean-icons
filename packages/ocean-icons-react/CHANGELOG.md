@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.28.0](https://github.com/ocean-ds/ocean-icons/compare/v1.27.0...v1.28.0) (2024-12-26)
+
+### Features
+
+- new icon contact less outline ([#274](https://github.com/ocean-ds/ocean-icons/issues/274)) ([435e603](https://github.com/ocean-ds/ocean-icons/commit/435e603c857f3d8226ab4ed8a16bbc925a51e776))
+
 # [1.27.0](https://github.com/ocean-ds/ocean-icons/compare/v1.26.0...v1.27.0) (2024-10-17)
 
 ### Features
