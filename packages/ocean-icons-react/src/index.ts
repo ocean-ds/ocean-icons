@@ -326,6 +326,7 @@ export { default as CoinsHandOutline } from './CoinsHandOutline';
 export { default as CollectionOutline } from './CollectionOutline';
 export { default as ColorSwatchOutline } from './ColorSwatchOutline';
 export { default as ContactBookOutline } from './ContactBookOutline';
+export { default as ContactLessOutline } from './ContactLessOutline';
 export { default as CreditCardOutline } from './CreditCardOutline';
 export { default as CubeTransparentOutline } from './CubeTransparentOutline';
 export { default as CubeOutline } from './CubeOutline';
