@@ -491,6 +491,7 @@ export { default as SwitchHorizontalOutline } from './SwitchHorizontalOutline';
 export { default as SwitchVerticalOutline } from './SwitchVerticalOutline';
 export { default as TableOutline } from './TableOutline';
 export { default as TagOutline } from './TagOutline';
+export { default as TargetOutline } from './TargetOutline';
 export { default as TaxOutline } from './TaxOutline';
 export { default as TemplateOutline } from './TemplateOutline';
 export { default as TerminalOutline } from './TerminalOutline';
