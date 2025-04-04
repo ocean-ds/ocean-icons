@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.29.0](https://github.com/ocean-ds/ocean-icons/compare/v1.28.0...v1.29.0) (2025-01-14)
+
+### Features
+
+- add target outline ([#275](https://github.com/ocean-ds/ocean-icons/issues/275)) ([d96ad6f](https://github.com/ocean-ds/ocean-icons/commit/d96ad6fce1049926c055ff7a84a550446603a842))
+
+# [1.28.0](https://github.com/ocean-ds/ocean-icons/compare/v1.27.0...v1.28.0) (2024-12-26)
+
+### Features
+
+- new icon contact less outline ([#274](https://github.com/ocean-ds/ocean-icons/issues/274)) ([435e603](https://github.com/ocean-ds/ocean-icons/commit/435e603c857f3d8226ab4ed8a16bbc925a51e776))
+
+# [1.27.0](https://github.com/ocean-ds/ocean-icons/compare/v1.26.0...v1.27.0) (2024-10-17)
+
+### Features
+
+- add lightouse icon ([#272](https://github.com/ocean-ds/ocean-icons/issues/272)) ([09ed503](https://github.com/ocean-ds/ocean-icons/commit/09ed50308f5cc927bfc4c21400db6dfceb91ebb6))
+
+# [1.26.0](https://github.com/ocean-ds/ocean-icons/compare/v1.25.0...v1.26.0) (2024-10-17)
+
+### Features
+
+- new arrow icon ([#273](https://github.com/ocean-ds/ocean-icons/issues/273)) ([64899da](https://github.com/ocean-ds/ocean-icons/commit/64899da4036564b3ca0cd7e628e489e7ef8fb865))
+
 # [1.25.0](https://github.com/ocean-ds/ocean-icons/compare/v1.24.0...v1.25.0) (2024-08-15)
 
 ### Features
