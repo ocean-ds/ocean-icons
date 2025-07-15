@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.30.0](https://github.com/ocean-ds/ocean-icons/compare/v1.29.0...v1.30.0) (2025-07-15)
+
+### Features
+
+- add new icons ([#276](https://github.com/ocean-ds/ocean-icons/issues/276)) ([153c994](https://github.com/ocean-ds/ocean-icons/commit/153c99418bf2119c29bba414b0a9da29a261a14f))
+
 # [1.29.0](https://github.com/ocean-ds/ocean-icons/compare/v1.28.0...v1.29.0) (2025-01-14)
 
 ### Features
