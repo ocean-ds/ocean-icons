@@ -15,7 +15,7 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           # Check out as an admin to allow for pushing back to master
           token: ${{ secrets.GH_TOKEN }}
@@ -28,7 +28,7 @@ jobs:
           git config --global user.email "devs@useblu.com.br"
 
       - name: Use Node.js environment
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: '14.x'
           registry-url: https://registry.npmjs.org/
@@ -38,9 +38,9 @@ jobs:
 
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
+        run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v4
         id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
