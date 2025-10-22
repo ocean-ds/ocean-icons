@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.31.0](https://github.com/ocean-ds/ocean-icons/compare/v1.30.0...v1.31.0) (2025-10-22)
+
+### Features
+
+- add SparklesAlt icon and update documentation for adding new icons ([#277](https://github.com/ocean-ds/ocean-icons/issues/277)) ([ed4caa5](https://github.com/ocean-ds/ocean-icons/commit/ed4caa5c66c2483cdd63cfa27270b717b6cc1261))
+
 # [1.30.0](https://github.com/ocean-ds/ocean-icons/compare/v1.29.0...v1.30.0) (2025-07-15)
 
 ### Features
