@@ -205,6 +205,7 @@ export { default as ShoppingBag } from './ShoppingBag';
 export { default as ShoppingCart } from './ShoppingCart';
 export { default as SortAscending } from './SortAscending';
 export { default as SortDescending } from './SortDescending';
+export { default as SparklesAlt } from './SparklesAlt';
 export { default as Sparkles } from './Sparkles';
 export { default as Speakerphone } from './Speakerphone';
 export { default as Star } from './Star';
