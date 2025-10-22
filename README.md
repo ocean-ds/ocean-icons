@@ -65,6 +65,14 @@ Yes, it's really all you need to get started as you can see in this live and int
 
 [![Edit Button](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/ocean-icons-ilimo)
 
+## Add new icons
+
+To add a new icon, you need to:
+
+1. Add the icon to the `packages/ocean-icons/src/custom/[solid | outline]` folder.
+2. Run `yarn generate` to generate the new icon. Run this command in the ocean-icons-react folder.
+3. Your icon is now available in the `packages/ocean-icons-react/src` folder.
+
 ## Contributing
 
 Whether you're helping us fix bugs, improve the docs, or spread the word, we'd love to have you as part of this project! :blue_heart: Read below to learn how you can take part of it.
