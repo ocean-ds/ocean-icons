@@ -362,6 +362,7 @@ export { default as EqualOutline } from './EqualOutline';
 export { default as ExclamationCircleOutline } from './ExclamationCircleOutline';
 export { default as ExclamationOutline } from './ExclamationOutline';
 export { default as ExternalLinkOutline } from './ExternalLinkOutline';
+export { default as EyeOffAltOutline } from './EyeOffAltOutline';
 export { default as EyeOffOutline } from './EyeOffOutline';
 export { default as EyeOutline } from './EyeOutline';
 export { default as FacebookOutline } from './FacebookOutline';
