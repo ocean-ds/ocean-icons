@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.32.0](https://github.com/ocean-ds/ocean-icons/compare/v1.31.0...v1.32.0) (2025-10-27)
+
+### Features
+
+- add EyeOffAltOutline icon to ocean-icons-react ([#278](https://github.com/ocean-ds/ocean-icons/issues/278)) ([142a1d1](https://github.com/ocean-ds/ocean-icons/commit/142a1d1d972f304a22626fc4fd64f44617810023))
+
 # [1.31.0](https://github.com/ocean-ds/ocean-icons/compare/v1.30.0...v1.31.0) (2025-10-22)
 
 ### Features
