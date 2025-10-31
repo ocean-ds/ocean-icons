@@ -4,7 +4,7 @@ type IconProps = {
   size?: number;
 } & React.SVGProps<SVGSVGElement>;
 
-const QrCode = (
+const Qrcode = (
   { size = 24, ...props }: IconProps,
   ref: React.Ref<SVGSVGElement>
 ) => (
@@ -25,5 +25,5 @@ const QrCode = (
   </svg>
 );
 
-const ForwardRef = forwardRef(QrCode);
+const ForwardRef = forwardRef(Qrcode);
 export default ForwardRef;
