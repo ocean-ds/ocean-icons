@@ -21,8 +21,8 @@ const PauseOutline = (
     <path
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={2}
-      d="M10 9v6m4-6v6m7-3a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"
+      strokeWidth={1.5}
+      d="M15.75 5.25v13.5m-7.5-13.5v13.5"
     />
   </svg>
 );

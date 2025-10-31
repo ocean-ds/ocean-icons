@@ -21,8 +21,8 @@ const BookmarkOutline = (
     <path
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={2}
-      d="M5 5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16l-7-3.5L5 21V5z"
+      strokeWidth={1.5}
+      d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0z"
     />
   </svg>
 );

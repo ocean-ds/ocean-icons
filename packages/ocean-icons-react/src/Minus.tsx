@@ -10,7 +10,7 @@ const Minus = (
 ) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 20 20"
+    viewBox="0 0 24 24"
     fill="currentColor"
     width={size}
     height={size}
@@ -19,7 +19,7 @@ const Minus = (
   >
     <path
       fillRule="evenodd"
-      d="M3 10a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1z"
+      d="M4.25 12a.75.75 0 0 1 .75-.75h14a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1-.75-.75z"
       clipRule="evenodd"
     />
   </svg>

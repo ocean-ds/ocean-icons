@@ -21,8 +21,8 @@ const ChevronDoubleRightOutline = (
     <path
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={2}
-      d="m13 5 7 7-7 7M5 5l7 7-7 7"
+      strokeWidth={1.5}
+      d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5"
     />
   </svg>
 );

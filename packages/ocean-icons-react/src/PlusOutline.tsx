@@ -21,8 +21,8 @@ const PlusOutline = (
     <path
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={2}
-      d="M12 4v16m8-8H4"
+      strokeWidth={1.5}
+      d="M12 4.5v15m7.5-7.5h-15"
     />
   </svg>
 );

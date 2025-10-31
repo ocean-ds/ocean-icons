@@ -10,7 +10,7 @@ const ChevronDoubleLeft = (
 ) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 20 20"
+    viewBox="0 0 24 24"
     fill="currentColor"
     width={size}
     height={size}
@@ -19,7 +19,12 @@ const ChevronDoubleLeft = (
   >
     <path
       fillRule="evenodd"
-      d="M15.707 15.707a1 1 0 0 1-1.414 0l-5-5a1 1 0 0 1 0-1.414l5-5a1 1 0 1 1 1.414 1.414L11.414 10l4.293 4.293a1 1 0 0 1 0 1.414zm-6 0a1 1 0 0 1-1.414 0l-5-5a1 1 0 0 1 0-1.414l5-5a1 1 0 0 1 1.414 1.414L5.414 10l4.293 4.293a1 1 0 0 1 0 1.414z"
+      d="M10.72 11.47a.75.75 0 0 0 0 1.06l7.5 7.5a.75.75 0 1 0 1.06-1.06L12.31 12l6.97-6.97a.75.75 0 0 0-1.06-1.06l-7.5 7.5z"
+      clipRule="evenodd"
+    />
+    <path
+      fillRule="evenodd"
+      d="M4.72 11.47a.75.75 0 0 0 0 1.06l7.5 7.5a.75.75 0 1 0 1.06-1.06L6.31 12l6.97-6.97a.75.75 0 0 0-1.06-1.06l-7.5 7.5z"
       clipRule="evenodd"
     />
   </svg>

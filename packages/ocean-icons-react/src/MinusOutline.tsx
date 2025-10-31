@@ -21,8 +21,8 @@ const MinusOutline = (
     <path
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={2}
-      d="M20 12H4"
+      strokeWidth={1.5}
+      d="M5 12h14"
     />
   </svg>
 );

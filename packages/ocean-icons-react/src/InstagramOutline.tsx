@@ -28,7 +28,7 @@ const InstagramOutline = (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M16 11.37a4 4 0 1 1-7.914 1.173A4 4 0 0 1 16 11.37zm1.5-4.87h.01"
+      d="M16 11.37a4 4 0 1 1-7.913 1.174A4 4 0 0 1 16 11.37zm1.5-4.87h.01"
     />
   </svg>
 );

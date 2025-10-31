@@ -21,8 +21,8 @@ const ArrowLeftOutline = (
     <path
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={2}
-      d="m10 19-7-7m0 0 7-7m-7 7h18"
+      strokeWidth={1.5}
+      d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
     />
   </svg>
 );

@@ -21,8 +21,8 @@ const CheckOutline = (
     <path
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={2}
-      d="m5 13 4 4L19 7"
+      strokeWidth={1.5}
+      d="m4.5 12.75 6 6 9-13.5"
     />
   </svg>
 );

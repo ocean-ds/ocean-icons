@@ -17,13 +17,7 @@ const FlashOn = (
     ref={ref}
     {...props}
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M5.833 1.667v9.166h2.5v7.5l5.834-10h-3.334l3.334-6.666H5.833z"
-    />
+    <path d="M5 2a1 1 0 0 1 1-1h8a1 1 0 0 1 .894 1.447L12.418 7.4H14a1 1 0 0 1 .864 1.504l-5.6 9.6A1 1 0 0 1 7.4 18v-6.2H6a1 1 0 0 1-1-1V2z" />
   </svg>
 );
 

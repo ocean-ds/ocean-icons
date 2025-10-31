@@ -21,8 +21,14 @@ const ChevronDoubleUpOutline = (
     <path
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={2}
-      d="m5 11 7-7 7 7M5 19l7-7 7 7"
+      strokeWidth={1.5}
+      d="m4.5 18.75 7.5-7.5 7.5 7.5"
+    />
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={1.5}
+      d="m4.5 12.75 7.5-7.5 7.5 7.5"
     />
   </svg>
 );

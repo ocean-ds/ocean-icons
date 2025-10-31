@@ -22,7 +22,7 @@ const FlashOnOutline = (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M7 2v11h3v9l7-12h-4l4-8H7z"
+      d="M7 3v11h3v9l7-12h-4l4-8H7z"
     />
   </svg>
 );

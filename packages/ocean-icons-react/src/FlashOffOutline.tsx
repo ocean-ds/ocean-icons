@@ -18,12 +18,18 @@ const FlashOffOutline = (
     ref={ref}
     {...props}
   >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M19 19 3 3m4-1v11h3v9l7-12h-4l4-8H7z"
-    />
+    <g clipPath="url(#prefix__a)">
+      <path strokeLinecap="round" strokeWidth={2} d="M3.414 3 18.97 18.556" />
+      <path
+        fill="currentColor"
+        d="M7 2a1 1 0 0 0-1 1v4l2 2V4h7.382l-3.276 6.553A1 1 0 0 0 13 12h2.259l-1.57 2.69 1.463 1.462 2.712-4.648A1 1 0 0 0 17 10h-2.382l3.276-6.553A1 1 0 0 0 17 2H7zm7.11 15.939-1.462-1.463L11 19.301v-4.473L9.172 13H8v-1.172l-2-2V14a1 1 0 0 0 1 1h2v8a1 1 0 0 0 1.864.504l3.246-5.565z"
+      />
+    </g>
+    <defs>
+      <clipPath id="prefix__a">
+        <path fill="#fff" d="M0 0h24v24H0z" />
+      </clipPath>
+    </defs>
   </svg>
 );
 
