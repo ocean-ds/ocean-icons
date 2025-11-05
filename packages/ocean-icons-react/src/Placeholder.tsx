@@ -18,11 +18,9 @@ const Placeholder = (
     {...props}
   >
     <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M17 3H3v14h14V3zm0 14L3 3l14 14zm0-14L3 17 17 3z"
+      fillRule="evenodd"
+      d="M3.875 3h12.25c.483 0 .875.392.875.875v12.25a.875.875 0 0 1-.875.875H3.875A.875.875 0 0 1 3 16.125V3.875C3 3.392 3.392 3 3.875 3zm2.369 2.006a.875.875 0 1 0-1.238 1.238L8.763 10l-3.757 3.756a.875.875 0 1 0 1.238 1.238L10 11.237l3.756 3.757a.875.875 0 1 0 1.238-1.238L11.237 10l3.757-3.756a.875.875 0 0 0-1.238-1.238L10 8.763 6.244 5.006z"
+      clipRule="evenodd"
     />
   </svg>
 );
