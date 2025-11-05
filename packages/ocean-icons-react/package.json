@@ -1,6 +1,6 @@
 {
   "name": "@useblu/ocean-icons-react",
-  "version": "1.32.0",
+  "version": "1.33.0",
   "private": false,
   "description": "React components for Ocean icons",
   "main": "dist/index.js",
@@ -43,7 +43,7 @@
     "@types/node": "^16.0.0",
     "@types/react": "^17.0.3",
     "@types/rollup-plugin-peer-deps-external": "^2.2.0",
-    "@useblu/ocean-icons": "^1.32.0",
+    "@useblu/ocean-icons": "^1.33.0",
     "eslint-plugin-react": "^7.22.0",
     "react": "^17.0.1",
     "rollup": "^2.41.2",
