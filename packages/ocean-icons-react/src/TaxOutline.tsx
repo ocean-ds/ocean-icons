@@ -21,9 +21,8 @@ const TaxOutline = (
     <path
       strokeLinecap="round"
       strokeWidth={2}
-      d="M10 8v8m4-8v8M4 4h16M4 20h16"
+      d="M10 8v8m4-8v8M4 4h16M4 20h16M6 4h12v16H6V4z"
     />
-    <path strokeWidth={2} d="M6 4h12v16H6z" />
   </svg>
 );
 

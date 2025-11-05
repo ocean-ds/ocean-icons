@@ -11,7 +11,7 @@ const PaperPlaneOutline = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
-    viewBox="0 0 24 25"
+    viewBox="0 0 24 24"
     stroke="currentColor"
     width={size}
     height={size}
@@ -21,9 +21,9 @@ const PaperPlaneOutline = (
     <path
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M20 4.5 2 11.73l7.26 3.54 3.555 7.23L20 4.5z"
+      d="M20 4 2 11.23l7.26 3.54L12.816 22 20 4z"
     />
-    <path strokeWidth={2} d="m9 15.5 11-11" />
+    <path strokeWidth={2} d="M9 15 20 4" />
   </svg>
 );
 

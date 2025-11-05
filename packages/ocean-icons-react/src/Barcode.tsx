@@ -22,7 +22,7 @@ const Barcode = (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M12 15V5m4 10V5M8 15V5M4 15V5"
+      d="M4 15V5m4 10V5m4 10V5m4 10V5"
     />
   </svg>
 );
