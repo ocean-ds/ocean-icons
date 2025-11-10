@@ -427,6 +427,7 @@ export { default as LockClosedOutline } from './LockClosedOutline';
 export { default as LockOpenOutline } from './LockOpenOutline';
 export { default as LockTaxOutline } from './LockTaxOutline';
 export { default as LoginOutline } from './LoginOutline';
+export { default as LogoBluOutline } from './LogoBluOutline';
 export { default as LogoutOutline } from './LogoutOutline';
 export { default as MailOpenOutline } from './MailOpenOutline';
 export { default as MailOutline } from './MailOutline';
