@@ -1,0 +1,26 @@
+import React, { forwardRef } from 'react';
+
+type IconProps = {
+  size?: number;
+} & React.SVGProps<SVGSVGElement>;
+
+const BluAnalysisOutline = (
+  { size = 24, ...props }: IconProps,
+  ref: React.Ref<SVGSVGElement>
+) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    width={size}
+    height={size}
+    ref={ref}
+    {...props}
+  >
+    <path d="M10.494 3.5h-3.2c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.31 1.311c-.328.642-.328 1.482-.328 3.162v8.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311c.642.327 1.482.327 3.162.327h8.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311c.327-.642.327-1.482.327-3.162v-3.2m-9-5h4v4m-.5-8.5V2.5m3.94 2.56L19.993 4m.01 5h1.5m-19.01 4.847c.652.1 1.32.153 2 .153 4.386 0 8.265-2.172 10.62-5.5" />
+  </svg>
+);
+
+const ForwardRef = forwardRef(BluAnalysisOutline);
+export default ForwardRef;

@@ -1,8 +1,8 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line x1="4" y1="10" x2="5" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-<line x1="2" y1="14" x2="5" y2="14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-<path d="M10.5714 4H8.85714C8.38376 4 8 4.35817 8 4.8V19.2C8 19.6418 8.38376 20 8.85714 20H15.2857C17.8893 20 20 18.0301 20 15.6C20 13.7506 18.7143 12.4 16.9607 11.4858C18.2634 10.7996 19.1429 9.49565 19.1429 8C19.1429 5.79086 17.2241 4 14.8571 4H9.71429" stroke="currentColor" stroke-width="2" stroke-linejoin="bevel"/>
-<path d="M13.15 10.5C14.1165 10.5 14.9 9.7165 14.9 8.75C14.9 7.7835 14.1165 7 13.15 7C12.1835 7 11.4 7.7835 11.4 8.75C11.4 9.7165 12.1835 10.5 13.15 10.5Z" fill="currentColor"/>
-<path d="M13.15 16.9C14.1165 16.9 14.9 16.1165 14.9 15.15C14.9 14.1835 14.1165 13.4 13.15 13.4C12.1835 13.4 11.4 14.1835 11.4 15.15C11.4 16.1165 12.1835 16.9 13.15 16.9Z" fill="currentColor"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M12.4 14.6L12.4 8.60004H13.9L13.9 14.6H12.4Z" fill="currentColor"/>
+<line x1="4" y1="10" x2="5" y2="10" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+<line x1="2" y1="14" x2="5" y2="14" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+<path d="M10.5714 4H8.85714C8.38376 4 8 4.35817 8 4.8V19.2C8 19.6418 8.38376 20 8.85714 20H15.2857C17.8893 20 20 18.0301 20 15.6C20 13.7506 18.7143 12.4 16.9607 11.4858C18.2634 10.7996 19.1429 9.49565 19.1429 8C19.1429 5.79086 17.2241 4 14.8571 4H9.71429" stroke="currentColor" stroke-width="1" stroke-linejoin="bevel"/>
+<path d="M13.1499 10.5C14.1164 10.5 14.8999 9.7165 14.8999 8.75C14.8999 7.7835 14.1164 7 13.1499 7C12.1834 7 11.3999 7.7835 11.3999 8.75C11.3999 9.7165 12.1834 10.5 13.1499 10.5Z" fill="currentColor"/>
+<path d="M13.1499 16.9C14.1164 16.9 14.8999 16.1165 14.8999 15.15C14.8999 14.1835 14.1164 13.4 13.1499 13.4C12.1834 13.4 11.3999 14.1835 11.3999 15.15C11.3999 16.1165 12.1834 16.9 13.1499 16.9Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.3999 14.6L12.3999 8.60004H13.8999L13.8999 14.6H12.3999Z" fill="currentColor"/>
 </svg>
