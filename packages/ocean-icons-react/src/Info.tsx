@@ -18,11 +18,9 @@ const Info = (
     {...props}
   >
     <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M10 13.333V10v3.333zm0-6.666h.008H10zM17.5 10a7.5 7.5 0 1 0-15 0 7.5 7.5 0 0 0 15 0z"
+      fillRule="evenodd"
+      d="M17.391 6.939a7.999 7.999 0 1 1-14.78 6.122 7.999 7.999 0 0 1 14.78-6.122zM11 13.333a1 1 0 1 1-2 0V10a1 1 0 0 1 2 0v3.333zm-1-5.666a1 1 0 1 1 0-2h.008a1 1 0 1 1 0 2H10z"
+      clipRule="evenodd"
     />
   </svg>
 );

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.33.0](https://github.com/ocean-ds/ocean-icons/compare/v1.32.0...v1.33.0) (2025-11-05)
+
+### Features
+
+- reupload all figma icons ([#280](https://github.com/ocean-ds/ocean-icons/issues/280)) ([66b06f2](https://github.com/ocean-ds/ocean-icons/commit/66b06f273a37961e70182336f19214f672f399a0))
+
 # [1.32.0](https://github.com/ocean-ds/ocean-icons/compare/v1.31.0...v1.32.0) (2025-10-27)
 
 ### Features
