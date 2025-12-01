@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.35.0](https://github.com/ocean-ds/ocean-icons/compare/v1.34.2...v1.35.0) (2025-12-01)
+
+### Features
+
+- add coins swap ([#284](https://github.com/ocean-ds/ocean-icons/issues/284)) ([365b411](https://github.com/ocean-ds/ocean-icons/commit/365b411ca8ec65a127f46ba13432f3b0564c67c0))
+
 ## [1.34.2](https://github.com/ocean-ds/ocean-icons/compare/v1.34.1...v1.34.2) (2025-11-26)
 
 ### Bug Fixes
