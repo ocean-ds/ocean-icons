@@ -339,6 +339,7 @@ export { default as CloudOutline } from './CloudOutline';
 export { default as CodeOutline } from './CodeOutline';
 export { default as CogOutline } from './CogOutline';
 export { default as CoinsHandOutline } from './CoinsHandOutline';
+export { default as CoinsSwapOutline } from './CoinsSwapOutline';
 export { default as CollectionOutline } from './CollectionOutline';
 export { default as ColorSwatchOutline } from './ColorSwatchOutline';
 export { default as ConstructionMaterialOutline } from './ConstructionMaterialOutline';
