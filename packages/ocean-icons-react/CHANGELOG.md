@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.37.0](https://github.com/ocean-ds/ocean-icons/compare/v1.36.0...v1.37.0) (2026-04-28)
+
+### Features
+
+- add CoinsHand solid icon ([#286](https://github.com/ocean-ds/ocean-icons/issues/286)) ([a0ffa0e](https://github.com/ocean-ds/ocean-icons/commit/a0ffa0ec32ee831e96ac61f72c8e7f080141aaff))
+
 # [1.36.0](https://github.com/ocean-ds/ocean-icons/compare/v1.35.0...v1.36.0) (2026-02-25)
 
 ### Features
