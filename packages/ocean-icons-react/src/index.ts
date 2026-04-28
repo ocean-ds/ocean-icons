@@ -66,6 +66,7 @@ export { default as CloudUpload } from './CloudUpload';
 export { default as Cloud } from './Cloud';
 export { default as Code } from './Code';
 export { default as Cog } from './Cog';
+export { default as CoinsHand } from './CoinsHand';
 export { default as Collection } from './Collection';
 export { default as ColorSwatch } from './ColorSwatch';
 export { default as CreditCard } from './CreditCard';
