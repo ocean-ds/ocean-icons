@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.38.0](https://github.com/ocean-ds/ocean-icons/compare/v1.37.0...v1.38.0) (2026-08-07)
+
+### Features
+
+- add LimitOutline icon ([#287](https://github.com/ocean-ds/ocean-icons/issues/287)) ([27d5b53](https://github.com/ocean-ds/ocean-icons/commit/27d5b5328ed9a8a437733d27d3fafb0cd9c3e8b8))
+
 # [1.37.0](https://github.com/ocean-ds/ocean-icons/compare/v1.36.0...v1.37.0) (2026-04-28)
 
 ### Features
