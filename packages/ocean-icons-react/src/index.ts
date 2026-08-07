@@ -428,6 +428,7 @@ export { default as LibraryOutline } from './LibraryOutline';
 export { default as LightBulbOutline } from './LightBulbOutline';
 export { default as LighthouseOutline } from './LighthouseOutline';
 export { default as LightningBoltOutline } from './LightningBoltOutline';
+export { default as LimitOutline } from './LimitOutline';
 export { default as LinkAltOutline } from './LinkAltOutline';
 export { default as LinkOutline } from './LinkOutline';
 export { default as LinkedinOutline } from './LinkedinOutline';
