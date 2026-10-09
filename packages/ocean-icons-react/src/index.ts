@@ -522,6 +522,7 @@ export { default as ShieldCheckOutline } from './ShieldCheckOutline';
 export { default as ShieldExclamationOutline } from './ShieldExclamationOutline';
 export { default as ShoppingBagOutline } from './ShoppingBagOutline';
 export { default as ShoppingCartOutline } from './ShoppingCartOutline';
+export { default as SidebarOutline } from './SidebarOutline';
 export { default as SortAscendingOutline } from './SortAscendingOutline';
 export { default as SortDescendingOutline } from './SortDescendingOutline';
 export { default as SortOutline } from './SortOutline';
