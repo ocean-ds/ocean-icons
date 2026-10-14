@@ -17,13 +17,7 @@ const Barcode = (
     ref={ref}
     {...props}
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M4 15V5m4 10V5m4 10V5m4 10V5"
-    />
+    <path d="M3 5a1 1 0 0 1 2 0v10a1 1 0 1 1-2 0V5zm4 0a1 1 0 0 1 2 0v8a1 1 0 1 1-2 0V5zm4 0a1 1 0 1 1 2 0v8a1 1 0 1 1-2 0V5zm4 0a1 1 0 1 1 2 0v10a1 1 0 1 1-2 0V5z" />
   </svg>
 );
 

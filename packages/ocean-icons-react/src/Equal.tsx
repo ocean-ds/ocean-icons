@@ -17,13 +17,7 @@ const Equal = (
     ref={ref}
     {...props}
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M14 12H6m8-5H6"
-    />
+    <path d="M14 11a1 1 0 1 1 0 2H6a1 1 0 1 1 0-2h8zm0-5a1 1 0 1 1 0 2H6a1 1 0 0 1 0-2h8z" />
   </svg>
 );
 

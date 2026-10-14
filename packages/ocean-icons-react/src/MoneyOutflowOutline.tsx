@@ -34,7 +34,7 @@ const MoneyOutflowOutline = (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M23 4.633 21 3m0 0-2 1.633M21 3v5"
+      d="M19 4.633 21 3l2 1.633M21 3v5"
     />
   </svg>
 );

@@ -20,14 +20,9 @@ const OutflowOutline = (
   >
     <path
       strokeLinecap="round"
-      strokeWidth={2}
-      d="M14 17h4a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v4"
-    />
-    <path
-      strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="m6 14-3 3m0 0 3 3m-3-3h7m1.96-4c-1.128 0-1.96-.895-1.96-2s.832-2 1.96-2c1.126 0 2.04.895 2.04 2s-.914 2-2.04 2z"
+      d="M14 17h4a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v4m2 9-3-3 3-3m-3 3h7m0-6c0 1.105.832 2 1.96 2 1.126 0 2.04-.895 2.04-2s-.914-2-2.04-2C10.831 9 10 9.895 10 11z"
     />
   </svg>
 );
