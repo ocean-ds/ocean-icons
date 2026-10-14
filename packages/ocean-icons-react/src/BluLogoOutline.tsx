@@ -26,6 +26,7 @@ const BluLogoOutline = (
     <path
       fill="currentColor"
       d="M11 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"
+      stroke="none"
     />
     <path strokeMiterlimit={10} strokeWidth={2} d="M11 8v8" />
   </svg>
