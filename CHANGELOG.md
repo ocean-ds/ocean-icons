@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.38.1](https://github.com/ocean-ds/ocean-icons/compare/v1.38.0...v1.38.1) (2026-10-14)
+
+### Bug Fixes
+
+- **ocean-icons:** stroke none em formas preenchidas de Outline e checagem no CI ([#289](https://github.com/ocean-ds/ocean-icons/issues/289)) ([59bf73b](https://github.com/ocean-ds/ocean-icons/commit/59bf73b344ac4afd3ead57c75ba486b340885925))
+
 # [1.38.0](https://github.com/ocean-ds/ocean-icons/compare/v1.37.0...v1.38.0) (2026-08-07)
 
 ### Features
