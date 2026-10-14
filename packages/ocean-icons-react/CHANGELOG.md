@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.39.0](https://github.com/ocean-ds/ocean-icons/compare/v1.38.1...v1.39.0) (2026-10-14)
+
+### Features
+
+- **ocean-icons:** desenho atual do Figma nos Blu Icons e 11 ícones que faltavam (MR-915) ([#290](https://github.com/ocean-ds/ocean-icons/issues/290)) ([b2739aa](https://github.com/ocean-ds/ocean-icons/commit/b2739aa656536450afa961ce49e009a18fa637ab))
+
 ## [1.38.1](https://github.com/ocean-ds/ocean-icons/compare/v1.38.0...v1.38.1) (2026-10-14)
 
 ### Bug Fixes
