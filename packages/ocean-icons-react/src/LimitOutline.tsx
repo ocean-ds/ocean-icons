@@ -20,13 +20,9 @@ const LimitOutline = (
   >
     <path
       strokeLinecap="round"
+      strokeLinejoin="round"
       strokeWidth={2}
-      d="M17.049 20H12.95a.25.25 0 0 1-.212-.383l2.049-3.278a.25.25 0 0 1 .424 0l2.049 3.279a.25.25 0 0 1-.212.382z"
-    />
-    <path
-      strokeLinecap="round"
-      strokeWidth={2}
-      d="M11 17H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2m-4-4V6"
+      d="M11 17H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2m-4-4V6m2.05 14h-4.1a.25.25 0 0 1-.21-.38l2.05-3.28a.25.25 0 0 1 .42 0l2.05 3.28a.25.25 0 0 1-.21.38z"
     />
   </svg>
 );

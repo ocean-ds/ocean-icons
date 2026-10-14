@@ -22,7 +22,7 @@ const PlaceholderOutline = (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M4 4h16M4 4v16M4 4l16 16m0-16v16m0-16L4 20m16 0H4"
+      d="M20 20V4H4v16h16zM4 4l16 16m0-16L4 20"
     />
   </svg>
 );

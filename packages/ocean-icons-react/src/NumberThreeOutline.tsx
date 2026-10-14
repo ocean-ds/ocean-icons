@@ -1,0 +1,31 @@
+import React, { forwardRef } from 'react';
+
+type IconProps = {
+  size?: number;
+} & React.SVGProps<SVGSVGElement>;
+
+const NumberThreeOutline = (
+  { size = 24, ...props }: IconProps,
+  ref: React.Ref<SVGSVGElement>
+) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    width={size}
+    height={size}
+    ref={ref}
+    {...props}
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M9.566 9.188c.274-.97 1.24-1.688 2.39-1.688 1.364 0 2.47 1.007 2.47 2.25S13.32 12 11.956 12c1.516 0 2.744 1.007 2.744 2.25s-1.228 2.25-2.743 2.25c-1.278 0-2.352-.717-2.657-1.688M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"
+    />
+  </svg>
+);
+
+const ForwardRef = forwardRef(NumberThreeOutline);
+export default ForwardRef;

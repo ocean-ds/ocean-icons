@@ -28,8 +28,7 @@ const PagBluOutline = (
     <path
       strokeLinecap="round"
       strokeLinejoin="round"
-      strokeWidth={3}
-      d="M13 9h.01M13 15h.01"
+      d="M13 9h.01M13 15h.01M14 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm0 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
     />
   </svg>
 );

@@ -18,13 +18,11 @@ const ZeroOutline = (
     ref={ref}
     {...props}
   >
-    <path strokeLinecap="round" strokeWidth={2} d="M17 3 6.516 21.16" />
     <path
-      fill="currentColor"
-      fillRule="evenodd"
-      d="M16.256 5.789a5.5 5.5 0 0 0-9.91 3.287v7c0 1.555.646 2.96 1.684 3.96l1.049-1.817a3.485 3.485 0 0 1-.733-2.143v-7A3.5 3.5 0 0 1 15.1 7.788l1.155-2zm-5.782 13.508a3.5 3.5 0 0 0 4.871-3.221V10.86l1.827-3.163c.113.44.174.903.174 1.379v7a5.5 5.5 0 0 1-7.876 4.962l1.004-1.741z"
-      clipRule="evenodd"
-      stroke="none"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M17 3 6.516 21.159m8.812-15.934a4.5 4.5 0 0 0-7.982 2.851v7c0 .892.26 1.724.708 2.424m8.292-7.5v5.076a4.5 4.5 0 0 1-5.717 4.333"
     />
   </svg>
 );

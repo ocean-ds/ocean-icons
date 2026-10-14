@@ -22,7 +22,7 @@ const BikeOutline = (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="m18 16-1.167-7M12 4h2.306a2 2 0 0 1 1.973 1.671L16.832 9M6 16l10.833-7M12 11.5 9 8H6m4 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zm12 0a4 4 0 1 1-8 0 4 4 0 0 1 8 0z"
+      d="M12 4h2.306a2 2 0 0 1 1.973 1.671L16.832 9 18 16M6 16l10.833-7M12 11.5 9 8H6m4 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zm12 0a4 4 0 1 1-8 0 4 4 0 0 1 8 0z"
     />
   </svg>
 );

@@ -17,13 +17,8 @@ const ArrowRightUp = (
     ref={ref}
     {...props}
   >
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M5 15 15 5M5 5h10v10"
-    />
+    <path d="M14.293 4.293a1 1 0 1 1 1.414 1.414l-10 10a1 1 0 1 1-1.414-1.414l10-10z" />
+    <path d="M14 15V6H5a1 1 0 0 1 0-2h10a1 1 0 0 1 1 1v10a1 1 0 1 1-2 0z" />
   </svg>
 );
 

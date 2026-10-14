@@ -22,7 +22,7 @@ const ArrowRightUpOutline = (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M5 19 19 5M5 5h14v14"
+      d="M7 17 17 7m0 10V7H7"
     />
   </svg>
 );
