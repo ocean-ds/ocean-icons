@@ -1,7 +1,7 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require('node:fs');
+const path = require('node:path');
 
-const ALLOW_WHITE = ['linkedin.svg'];
+const ALLOW_WHITE = new Set(['linkedin.svg']);
 const ELEMENT_TAGS = [
   'path',
   'circle',
@@ -14,23 +14,26 @@ const ELEMENT_TAGS = [
   'use',
 ];
 const SKIP_TAGS = ['clipPath', 'mask', 'defs'];
-const WHITE_FILLS = ['white', '#fff', '#ffffff'];
+const WHITE_FILLS = new Set(['white', '#fff', '#ffffff']);
 
 const dirs = process.argv.slice(2);
 if (dirs.length === 0) dirs.push('dist/outline');
 
 const stripSkipped = (content) => {
   for (const tag of SKIP_TAGS) {
-    const re = new RegExp(`<${tag}(\\s[^>]*)?>[\\s\\S]*?<\\/${tag}>`, 'g');
+    const re = new RegExp(
+      String.raw`<${tag}(\s[^>]*)?>[\s\S]*?<\/${tag}>`,
+      'g'
+    );
     content = content.replace(re, '');
-    const selfClosing = new RegExp(`<${tag}(\\s[^>]*)?\\/>`, 'g');
+    const selfClosing = new RegExp(String.raw`<${tag}(\s[^>]*)?\/>`, 'g');
     content = content.replace(selfClosing, '');
   }
   return content;
 };
 
 const getAttr = (tag, name) => {
-  const re = new RegExp(`\\b${name}\\s*=\\s*"([^"]*)"`, 'i');
+  const re = new RegExp(String.raw`\b${name}\s*=\s*"([^"]*)"`, 'i');
   const m = tag.match(re);
   return m ? m[1] : undefined;
 };
@@ -59,8 +62,8 @@ for (const dir of dirs) {
       }
       if (
         fill &&
-        WHITE_FILLS.includes(fill.toLowerCase()) &&
-        !ALLOW_WHITE.includes(file)
+        WHITE_FILLS.has(fill.toLowerCase()) &&
+        !ALLOW_WHITE.has(file)
       ) {
         errors.push(`${file}: fill branco`);
       }
