@@ -27,7 +27,7 @@ const LinkedinOutline = (
     </g>
     <defs>
       <clipPath id="prefix__a">
-        <path fill="#fff" d="M0 0h24v24H0z" />
+        <path fill="#fff" d="M0 0h24v24H0z" stroke="none" />
       </clipPath>
     </defs>
   </svg>

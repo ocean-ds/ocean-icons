@@ -19,7 +19,8 @@
     "build:custom:outline": "cross-env FOLDER=./src/custom/outline yarn build:outline",
     "build:custom:solid": "cross-env FOLDER=./src/custom/solid yarn build:solid",
     "build:outline": "cross-env-shell svgo --config svgo.outline.js -f $FOLDER -o ./dist/outline -q",
-    "build:solid": "cross-env-shell svgo --config svgo.solid.js -f $FOLDER -o ./dist/solid -q"
+    "build:solid": "cross-env-shell svgo --config svgo.solid.js -f $FOLDER -o ./dist/solid -q",
+    "check:outline": "node scripts/check-outline.js dist/outline"
   },
   "keywords": [
     "svg",

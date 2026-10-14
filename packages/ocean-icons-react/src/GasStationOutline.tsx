@@ -24,20 +24,12 @@ const GasStationOutline = (
       strokeWidth={2}
       d="M16 11h2.517c.267 0 .483.216.483.483V16.5a1.5 1.5 0 0 0 3 0V6l-3-3M2 21h15m-1 0V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v16h13z"
     />
-    <mask id="prefix__a" fill="#fff">
-      <rect width={9} height={7} x={5} y={5} rx={1} />
-    </mask>
-    <rect
-      width={9}
-      height={7}
-      x={5}
-      y={5}
-      strokeWidth={4}
-      mask="url(#prefix__a)"
-      rx={1}
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M19.333 6.9c0 .883.746 1.6 1.667 1.6.92 0 1.667-.716 1.667-1.6 0-.884-.747-1.6-1.667-1.6m-1.667 1.6c0-.884.746-1.6 1.667-1.6m-1.667 1.6H21V5.3m-1.667 1.6.167-3.234L21 5.3M12 7v3H7V7h5z"
     />
-    <path fill="currentColor" d="M23 7a2 2 0 1 1-4 0 2 2 0 0 1 4 0z" />
-    <path fill="currentColor" d="M19 4h2v3h-2V4z" />
   </svg>
 );
 
